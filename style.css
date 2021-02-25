@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.herocontainer {
+  width: 100%;
+  min-height: 100vh;
+  background: url(img/adam-winger-nclN_J0UtJ8-unsplash.jpg);
+  background-size: cover;
+  background-position: center -14rem;
+}
+
+.herocontainer .heroflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.herocontainer .heroflex .herocontent {
+  min-height: 50vh;
+  width: 38%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.842);
+  padding: 1rem;
+  margin-top: 15%;
+}
+
+.herocontainer .heroflex .herocontent h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.herocontainer .heroflex .herocontent h2 {
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.herocontainer .heroflex .herocontent p {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.herobutton {
+  background-color: #e0bc75;
+  color: black;
+  font-weight: 500;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 175px;
+  text-align: center;
+  border: 2px solid #e0bc75;
+}
+
+.herobutton:hover,
+.herobutton:active {
+  background-color: transparent;
+  color: black;
+}
+
+.featured {
+  width: 100%;
+  background-color: #333;
+}
+
+.featured .featuredflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured .featuredflex img {
+  width: 50%;
+}
+
+.featured .featuredflex .featuredcontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+  color: white;
+}
+
+.featured .featuredflex .featuredcontent p {
+  font-weight: 400;
+}
+
+.featured .featuredflex .featuredcontent h2 {
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+}
+
+.cards {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+}
+
+.cards img {
+  width: 100%;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cards .cardflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards .cardflex .cardcontent {
+  width: 30%;
+  margin: 0 1rem;
+}
+
+.cards .cardflex .cardcontent h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cards .cardflex .cardcontent h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 1.25rem;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+.cards .cardflex .cardcontent .herobutton {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cards .cardflex .cardcontent .herobutton:hover,
+.cards .cardflex .cardcontent .herobutton:active {
+  background-color: transparent;
+  color: black;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.templateflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.templateflex img {
+  width: 50%;
+  margin: 5rem 1rem 5rem 1rem;
+}
+
+.templateflex .templatecontent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem 1rem 5rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */
