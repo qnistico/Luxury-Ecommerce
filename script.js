@@ -27,7 +27,7 @@ var content = [
 
 var template = document.querySelector('template').innerHTML;
 var params = new URLSearchParams(window.location.search)
-var id = params.get('id')
+var id = params.get('id') || 1
 
 var data = content.find(x => x.id == id);
 
