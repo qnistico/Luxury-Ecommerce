@@ -141,8 +141,9 @@ html, body {
 .kitchenhero {
     background-image: url(img/kitchen.jpg);
     object-fit: cover;
-    background-position-x: 11rem;
     width: 100%;
+    background-size: cover;
+    background-position: 18rem 50%;
     min-height: 55vh;
     .kitchenheroflex {
         display: flex;
@@ -208,6 +209,7 @@ html, body {
     img {
         width: 50%;
         margin: 5rem 1rem 5rem 1rem;
+        background-color: #F7f2ed;
     }
     .templatecontent {
         width: 100%;
