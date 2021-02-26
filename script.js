@@ -6,6 +6,7 @@ $(document).ready(function () {
 var content = [
     {
         id: 1,
+        jsimg: "img/kitchensilverware-removebg-preview.png",
         firstpar: "Leather Sofa",
         h1: "Luxury Handmade Sofa",
         price: "$32.00",
