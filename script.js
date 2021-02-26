@@ -15,6 +15,7 @@ var content = [
     },
     {
         id: 2,
+        jsimg: "img/kitchenimg2-removebg-preview.png",
         firstpar: "John so cool",
         h1: "A thing!",
         price: "$3222222.00",
