@@ -14,7 +14,7 @@ html, body {
 .herocontainer {
   width: 100%;
   min-height: 100vh;
-  background: url(img/adam-winger-nclN_J0UtJ8-unsplash.jpg);
+  background: url(img/mansion.jpg);
   background-size: cover;
   background-position: center -14rem;
 }
@@ -27,18 +27,17 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
 }
 
 .herocontainer .heroflex .herocontent {
   min-height: 50vh;
-  width: 38%;
+  width: 32%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,9 +52,9 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: white;
   padding: 1rem;
-  margin-top: 15%;
+  margin: 14.25% 0 0 3rem;
 }
 
 .herocontainer .heroflex .herocontent h1 {
@@ -144,6 +143,7 @@ html, body {
 .cards {
   width: 100%;
   padding: 2rem 0 2rem 0;
+  color: #323232;
 }
 
 .cards img {
@@ -181,9 +181,9 @@ html, body {
 
 .cards .cardflex .cardcontent h2 {
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 500;
   margin-bottom: 1.25rem;
-  color: black;
+  color: #323232;
   font-family: 'Playfair Display', serif;
 }
 
@@ -197,11 +197,89 @@ html, body {
   color: black;
 }
 
-.navbar {
-  background-color: white;
+.kitchenhero {
+  background-image: url(img/kitchen.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position-x: -75%;
+  width: 100%;
+  min-height: 55vh;
 }
 
-.navbar .nav-link {
+.kitchenhero .kitchenheroflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kitchenhero .kitchenheroflex .kitchenherocontent {
+  width: 38%;
+  background-color: #F7f2ed;
+  min-height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem;
+  margin-top: 3.54rem;
+}
+
+.kitchenhero .kitchenheroflex .kitchenherocontent h1 {
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.kitchenproducts {
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+}
+
+.kitchenproducts .kitchenproductsflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.kitchenproducts .kitchenproductsflex img {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #d1d1d1;
+}
+
+.kitchenproducts .kitchenproductsflex .kitchenitem {
+  width: 30%;
+  margin: 20px 20px;
+}
+
+.kitchenproducts .kitchenproductsflex .kitchenitem p {
+  margin-bottom: 0.25rem;
+}
+
+.kitchenproducts .kitchenproductsflex .kitchenitem .itemprice {
   font-weight: 500;
 }
 
@@ -238,5 +316,19 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 5rem 1rem 5rem 1rem;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  color: black;
+  margin: 0 20px;
+}
+
+.navbar .fa-bars {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

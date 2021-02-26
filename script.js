@@ -39,3 +39,4 @@ function populateTemplate(template, data) {
     }
     return template;
 }
+

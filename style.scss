@@ -13,26 +13,25 @@ html, body {
 .herocontainer {
     width: 100%;
     min-height: 100vh;
-    background: url(img/adam-winger-nclN_J0UtJ8-unsplash.jpg);
+    background: url(img/mansion.jpg);
     background-size: cover;
     background-position: center -14rem;
     .heroflex {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        margin: auto;
         .herocontent {
             min-height: 50vh;
-            width: 38%;
+            width: 32%;
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: rgba(255, 255, 255, 0.842);
+            background-color: rgb(255, 255, 255);
             padding: 1rem;
-            margin-top: 15%;
+            margin: 14.25% 0 0 3rem;
             h1 {
                 font-size: 48px;
                 font-weight: 900;
@@ -99,6 +98,7 @@ html, body {
 .cards {
     width: 100%;
     padding: 2rem 0 2rem 0;
+    color: #323232;
     img {
         width: 100%;
         margin-bottom: 1rem;
@@ -121,9 +121,9 @@ html, body {
             }
             h2 {
                 font-size: 1.5rem;
-                font-weight: 900;
+                font-weight: 500;
                 margin-bottom: 1.25rem;
-                color: black;
+                color: #323232;
                 font-family: 'Playfair Display', serif;
             }
             .herobutton {
@@ -138,13 +138,60 @@ html, body {
     }
 }
 
-
-.navbar {
-    background-color: white;
-    .nav-link {
-        font-weight: 500;
+.kitchenhero {
+    background-image: url(img/kitchen.jpg);
+    object-fit: cover;
+    background-position-x: -75%;
+    width: 100%;
+    min-height: 55vh;
+    .kitchenheroflex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        .kitchenherocontent {
+            width: 38%;
+            background-color: #F7f2ed;
+            min-height: 55vh;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            padding: 3rem;
+            margin-top: 3.54rem;
+            h1 {
+                font-weight: 700;
+                font-family: 'Playfair Display', serif;
+                margin-bottom: 1rem;
+            }
+        }
     }
 }
+
+.kitchenproducts {
+    width: 100%;
+    padding: 3rem 0 3rem 0;
+    .kitchenproductsflex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 100%;
+            margin-bottom: 1rem;
+            background-color: #d1d1d1;
+        }
+        .kitchenitem {
+            width: 30%;
+            margin: 20px 20px;
+            p {
+                margin-bottom: 0.25rem;
+            }
+            .itemprice {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
 
 .templateflex { 
     display: flex;
@@ -165,3 +212,18 @@ html, body {
         margin: 5rem 1rem 5rem 1rem;
     }
 }
+
+
+
+.navbar {
+    background-color: white;
+    .nav-link {
+        font-weight: 500;
+        color: black;
+        margin: 0 20px;
+    }
+    .fa-bars {
+        font-size: 2rem;
+    }
+}
+
