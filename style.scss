@@ -13,13 +13,13 @@ html, body {
 .herocontainer {
     width: 100%;
     min-height: 100vh;
-    background: url(img/mansion.jpg);
+    background: url(img/mansion1.jpg);
     background-size: cover;
     background-position: center -14rem;
     .heroflex {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         .herocontent {
             min-height: 50vh;
@@ -31,7 +31,7 @@ html, body {
             justify-content: center;
             background-color: rgb(255, 255, 255);
             padding: 1rem;
-            margin: 14.25% 0 0 3rem;
+            margin: 14.25% 3rem 0 0;
             h1 {
                 font-size: 48px;
                 font-weight: 900;
@@ -141,7 +141,7 @@ html, body {
 .kitchenhero {
     background-image: url(img/kitchen.jpg);
     object-fit: cover;
-    background-position-x: -75%;
+    background-position-x: 11rem;
     width: 100%;
     min-height: 55vh;
     .kitchenheroflex {
@@ -177,7 +177,7 @@ html, body {
         img {
             width: 100%;
             margin-bottom: 1rem;
-            background-color: #d1d1d1;
+            background-color: #e7e7e7;
         }
         .kitchenitem {
             width: 30%;
@@ -190,6 +190,11 @@ html, body {
             }
         }
     }
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: #e0bc75;
 }
 
 

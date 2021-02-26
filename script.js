@@ -21,7 +21,17 @@ var content = [
         price: "$3222222.00",
         content: "I am the best, still!",
         description: "Hand crafted fiber by superman as Jesus.  Each God sitting."
+    },
+    {
+        id: 3,
+        jsimg: "img/kitchenimg3.png",
+        firstpar: "John so cool",
+        h1: "A thing!",
+        price: "$3222222.00",
+        content: "I am the best, still!",
+        description: "Hand crafted fiber by superman as Jesus.  Each God sitting."
     }
+
 ]
 
 

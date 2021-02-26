@@ -14,7 +14,7 @@ html, body {
 .herocontainer {
   width: 100%;
   min-height: 100vh;
-  background: url(img/mansion.jpg);
+  background: url(img/mansion1.jpg);
   background-size: cover;
   background-position: center -14rem;
 }
@@ -27,9 +27,9 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -54,7 +54,7 @@ html, body {
           justify-content: center;
   background-color: white;
   padding: 1rem;
-  margin: 14.25% 0 0 3rem;
+  margin: 14.25% 3rem 0 0;
 }
 
 .herocontainer .heroflex .herocontent h1 {
@@ -201,7 +201,7 @@ html, body {
   background-image: url(img/kitchen.jpg);
   -o-object-fit: cover;
      object-fit: cover;
-  background-position-x: -75%;
+  background-position-x: 11rem;
   width: 100%;
   min-height: 55vh;
 }
@@ -267,7 +267,7 @@ html, body {
 .kitchenproducts .kitchenproductsflex img {
   width: 100%;
   margin-bottom: 1rem;
-  background-color: #d1d1d1;
+  background-color: #e7e7e7;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem {
@@ -281,6 +281,11 @@ html, body {
 
 .kitchenproducts .kitchenproductsflex .kitchenitem .itemprice {
   font-weight: 500;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  color: #e0bc75;
 }
 
 .templateflex {
