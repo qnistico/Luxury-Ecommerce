@@ -7,8 +7,9 @@
 
 html, body {
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  background: #f2f2f2;
 }
 
 .herocontainer {
@@ -27,17 +28,16 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .herocontainer .heroflex .herocontent {
-  min-height: 50vh;
-  width: 32%;
+  width: 500px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +54,9 @@ html, body {
           justify-content: center;
   background-color: white;
   padding: 1rem;
-  margin: 14.25% 3rem 0 0;
+  margin: 7.15% 0 0 3rem;
+  -webkit-box-shadow: #00000062 0 12px 24px 0;
+          box-shadow: #00000062 0 12px 24px 0;
 }
 
 .herocontainer .heroflex .herocontent h1 {
@@ -93,7 +95,7 @@ html, body {
 
 .featured {
   width: 100%;
-  background-color: #333;
+  padding: 3rem;
 }
 
 .featured .featuredflex {
@@ -110,10 +112,13 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #333;
 }
 
 .featured .featuredflex img {
   width: 50%;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
 }
 
 .featured .featuredflex .featuredcontent {
@@ -140,6 +145,36 @@ html, body {
   font-family: 'Playfair Display', serif;
 }
 
+.featured .featuredflex .featuredcontent .herobutton:hover,
+.featured .featuredflex .featuredcontent .herobutton:active {
+  color: white;
+}
+
+.candles {
+  width: 100%;
+  padding: 3rem;
+}
+
+.candles img {
+  width: 100%;
+}
+
+.candles .candlecontent {
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.candles .candlecontent h2 {
+  font-size: 24px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 500;
+}
+
+.candles .candlecontent p {
+  margin-bottom: 0.5rem;
+}
+
 .cards {
   width: 100%;
   padding: 2rem 0 2rem 0;
@@ -148,7 +183,6 @@ html, body {
 
 .cards img {
   width: 100%;
-  margin-bottom: 1rem;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -172,29 +206,32 @@ html, body {
 .cards .cardflex .cardcontent {
   width: 30%;
   margin: 0 1rem;
+  text-align: center;
+  background-color: #fff;
 }
 
 .cards .cardflex .cardcontent h4 {
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 0.25rem;
 }
 
 .cards .cardflex .cardcontent h2 {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 1.25rem;
   color: #323232;
   font-family: 'Playfair Display', serif;
-}
-
-.cards .cardflex .cardcontent .herobutton {
-  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.25rem;
 }
 
 .cards .cardflex .cardcontent .herobutton:hover,
 .cards .cardflex .cardcontent .herobutton:active {
   background-color: transparent;
   color: black;
+}
+
+.cards .cardwords {
+  padding: 1rem;
 }
 
 .kitchenhero {
