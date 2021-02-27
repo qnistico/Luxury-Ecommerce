@@ -369,6 +369,10 @@ html, body {
   margin: 5rem 1rem 5rem 1rem;
 }
 
+.templateflex .templatecontent h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .page-footer {
   background-color: #ebebeb;
   color: black !important;
