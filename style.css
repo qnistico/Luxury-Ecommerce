@@ -52,7 +52,7 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(255, 255, 255, 0.836);
+  background-color: white;
   padding: 1rem;
   margin: 7.15% 0 0 3rem;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
@@ -240,6 +240,16 @@ html, body {
   background-color: white;
 }
 
+.livingroomhero {
+  background-image: url(img/livingroom.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 55vh;
+}
+
 .kitchenhero {
   background-image: url(img/kitchen.jpg);
   -o-object-fit: cover;
@@ -250,7 +260,8 @@ html, body {
   min-height: 55vh;
 }
 
-.kitchenhero .kitchenheroflex {
+.kitchenheroflex,
+.livingroomheroflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,7 +274,10 @@ html, body {
           align-items: center;
 }
 
-.kitchenhero .kitchenheroflex .kitchenherocontent {
+.kitchenheroflex .kitchenherocontent,
+.kitchenheroflex .livingroomherocontent,
+.livingroomheroflex .kitchenherocontent,
+.livingroomheroflex .livingroomherocontent {
   width: 38%;
   background-color: #F7f2ed;
   min-height: 55vh;
@@ -281,18 +295,25 @@ html, body {
   margin-top: 3.54rem;
 }
 
-.kitchenhero .kitchenheroflex .kitchenherocontent h1 {
+.kitchenheroflex .kitchenherocontent h1,
+.kitchenheroflex .livingroomherocontent h1,
+.livingroomheroflex .kitchenherocontent h1,
+.livingroomheroflex .livingroomherocontent h1 {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
 }
 
-.kitchenproducts {
+.kitchenproducts,
+.livingroomproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 }
 
-.kitchenproducts .kitchenproductsflex {
+.kitchenproducts .kitchenproductsflex,
+.kitchenproducts .livingroomproductsflex,
+.livingroomproducts .kitchenproductsflex,
+.livingroomproducts .livingroomproductsflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,22 +329,46 @@ html, body {
           justify-content: center;
 }
 
-.kitchenproducts .kitchenproductsflex img {
+.kitchenproducts .kitchenproductsflex img,
+.kitchenproducts .livingroomproductsflex img,
+.livingroomproducts .kitchenproductsflex img,
+.livingroomproducts .livingroomproductsflex img {
   width: 100%;
   margin-bottom: 1rem;
   background-color: #e7e7e7;
 }
 
-.kitchenproducts .kitchenproductsflex .kitchenitem {
+.kitchenproducts .kitchenproductsflex .kitchenitem,
+.kitchenproducts .kitchenproductsflex .livingroomitem,
+.kitchenproducts .livingroomproductsflex .kitchenitem,
+.kitchenproducts .livingroomproductsflex .livingroomitem,
+.livingroomproducts .kitchenproductsflex .kitchenitem,
+.livingroomproducts .kitchenproductsflex .livingroomitem,
+.livingroomproducts .livingroomproductsflex .kitchenitem,
+.livingroomproducts .livingroomproductsflex .livingroomitem {
   width: 30%;
   margin: 20px 20px;
 }
 
-.kitchenproducts .kitchenproductsflex .kitchenitem p {
+.kitchenproducts .kitchenproductsflex .kitchenitem p,
+.kitchenproducts .kitchenproductsflex .livingroomitem p,
+.kitchenproducts .livingroomproductsflex .kitchenitem p,
+.kitchenproducts .livingroomproductsflex .livingroomitem p,
+.livingroomproducts .kitchenproductsflex .kitchenitem p,
+.livingroomproducts .kitchenproductsflex .livingroomitem p,
+.livingroomproducts .livingroomproductsflex .kitchenitem p,
+.livingroomproducts .livingroomproductsflex .livingroomitem p {
   margin-bottom: 0.25rem;
 }
 
-.kitchenproducts .kitchenproductsflex .kitchenitem .itemprice {
+.kitchenproducts .kitchenproductsflex .kitchenitem .itemprice,
+.kitchenproducts .kitchenproductsflex .livingroomitem .itemprice,
+.kitchenproducts .livingroomproductsflex .kitchenitem .itemprice,
+.kitchenproducts .livingroomproductsflex .livingroomitem .itemprice,
+.livingroomproducts .kitchenproductsflex .kitchenitem .itemprice,
+.livingroomproducts .kitchenproductsflex .livingroomitem .itemprice,
+.livingroomproducts .livingroomproductsflex .kitchenitem .itemprice,
+.livingroomproducts .livingroomproductsflex .livingroomitem .itemprice {
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
@@ -384,6 +429,36 @@ html, body {
 
 .page-footer .font1 {
   font-family: 'Montserrat', sans-serif;
+}
+
+.testimonials {
+  width: 100%;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.testimonials .testimonialflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testimonials .testimonialflex .testimonial-card {
+  width: 30%;
+  margin: 0 20px;
+}
+
+.testimonials .testimonialflex .testimonial-card .card-up {
+  background-color: #333;
 }
 
 .navbar {

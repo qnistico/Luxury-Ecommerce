@@ -31,7 +31,7 @@ html, body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: rgba(255, 255, 255, 0.836);
+            background-color: white;
             padding: 1rem;
             margin: 7.15% 0 0 3rem;
             box-shadow: #c5c5c562 0 12px 24px 0;
@@ -175,6 +175,15 @@ html, body {
     }
 }
 
+.livingroomhero {
+    background-image: url(img/livingroom.jpg);
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: 18rem 50%;
+    min-height: 55vh;
+}
+
 .kitchenhero {
     background-image: url(img/kitchen.jpg);
     object-fit: cover;
@@ -182,11 +191,15 @@ html, body {
     background-size: cover;
     background-position: 18rem 50%;
     min-height: 55vh;
-    .kitchenheroflex {
+}
+
+    .kitchenheroflex,
+    .livingroomheroflex {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
-        .kitchenherocontent {
+        .kitchenherocontent,
+        .livingroomherocontent {
             width: 38%;
             background-color: #F7f2ed;
             min-height: 55vh;
@@ -202,12 +215,14 @@ html, body {
             }
         }
     }
-}
 
-.kitchenproducts {
+
+.kitchenproducts,
+.livingroomproducts {
     width: 100%;
     padding: 3rem 0 3rem 0;
-    .kitchenproductsflex {
+    .kitchenproductsflex,
+    .livingroomproductsflex {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
@@ -217,7 +232,8 @@ html, body {
             margin-bottom: 1rem;
             background-color: #e7e7e7;
         }
-        .kitchenitem {
+        .kitchenitem,
+        .livingroomitem {
             width: 30%;
             margin: 20px 20px;
             p {
@@ -269,6 +285,24 @@ html, body {
     }
     .font1 {
         font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.testimonials {
+    width: 100%;
+    padding: 3rem 1rem 3rem 1rem;
+    .testimonialflex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        .testimonial-card {
+            width: 30%;
+            margin: 0 20px;
+            .card-up {
+                background-color: #333;
+            }
+        }
     }
 }
 
