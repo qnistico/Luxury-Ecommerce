@@ -9,7 +9,7 @@ html, body {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     
-    background: #f2f2f2;
+    background: #fafafa;
     
 }
 
@@ -34,7 +34,7 @@ html, body {
             background-color: rgba(255, 255, 255, 0.63);
             padding: 1rem;
             margin: 7.15% 0 0 3rem;
-            box-shadow: #00000062 0 12px 24px 0;
+            box-shadow: #c5c5c562 0 12px 24px 0;
             h1 {
                 font-size: 48px;
                 font-weight: 900;
@@ -57,13 +57,13 @@ html, body {
 }
 
 .herobutton {
-    background-color: #e0bc75;
-    color: black;
+    background-color: #424242;
+    color: white;
     font-weight: 500;
     padding: 0.5rem 1rem 0.5rem 1rem;
     width: 175px;
     text-align: center;
-    border: 2px solid #e0bc75;
+    border: 2px solid #424242;
 }
 .herobutton:hover,
 .herobutton:active {
@@ -112,9 +112,10 @@ html, body {
         width: 100%;
     }
     .candlecontent {
-        background-color: #fff;
+        background-color: white;
         padding: 1rem;
         text-align: center;
+        box-shadow: #e2e2e262 0 12px 24px 0;
         h2 {
             font-size: 24px;
             font-family: 'Playfair Display', sans-serif;
@@ -146,7 +147,9 @@ html, body {
             width: 30%;
             margin: 0 1rem;
             text-align: center;
-            background-color: #fff;
+            background-color: white;
+            box-shadow: #e2e2e262 0 12px 24px 0;
+            
             h4 {
                 font-size: 16px;
                 font-weight: 500;
@@ -168,6 +171,7 @@ html, body {
     }
     .cardwords {
         padding: 1rem;
+        background-color: white;
     }
 }
 
@@ -251,6 +255,17 @@ html, body {
         flex-flow: column nowrap;
         justify-content: center;
         margin: 5rem 1rem 5rem 1rem;
+    }
+}
+
+.page-footer {
+    background-color: #ebebeb;
+    color: black !important;
+    a {
+        color: black !important;
+    }
+    .font1 {
+        font-family: 'Montserrat', sans-serif;
     }
 }
 

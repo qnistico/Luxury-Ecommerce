@@ -9,7 +9,7 @@ html, body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  background: #f2f2f2;
+  background: #fafafa;
 }
 
 .herocontainer {
@@ -55,8 +55,8 @@ html, body {
   background-color: rgba(255, 255, 255, 0.63);
   padding: 1rem;
   margin: 7.15% 0 0 3rem;
-  -webkit-box-shadow: #00000062 0 12px 24px 0;
-          box-shadow: #00000062 0 12px 24px 0;
+  -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
+          box-shadow: #c5c5c562 0 12px 24px 0;
 }
 
 .herocontainer .heroflex .herocontent h1 {
@@ -79,13 +79,13 @@ html, body {
 }
 
 .herobutton {
-  background-color: #e0bc75;
-  color: black;
+  background-color: #424242;
+  color: white;
   font-weight: 500;
   padding: 0.5rem 1rem 0.5rem 1rem;
   width: 175px;
   text-align: center;
-  border: 2px solid #e0bc75;
+  border: 2px solid #424242;
 }
 
 .herobutton:hover,
@@ -161,9 +161,11 @@ html, body {
 }
 
 .candles .candlecontent {
-  background-color: #fff;
+  background-color: white;
   padding: 1rem;
   text-align: center;
+  -webkit-box-shadow: #e2e2e262 0 12px 24px 0;
+          box-shadow: #e2e2e262 0 12px 24px 0;
 }
 
 .candles .candlecontent h2 {
@@ -208,7 +210,9 @@ html, body {
   width: 30%;
   margin: 0 1rem;
   text-align: center;
-  background-color: #fff;
+  background-color: white;
+  -webkit-box-shadow: #e2e2e262 0 12px 24px 0;
+          box-shadow: #e2e2e262 0 12px 24px 0;
 }
 
 .cards .cardflex .cardcontent h4 {
@@ -233,6 +237,7 @@ html, body {
 
 .cards .cardwords {
   padding: 1rem;
+  background-color: white;
 }
 
 .kitchenhero {
@@ -362,6 +367,19 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 5rem 1rem 5rem 1rem;
+}
+
+.page-footer {
+  background-color: #ebebeb;
+  color: black !important;
+}
+
+.page-footer a {
+  color: black !important;
+}
+
+.page-footer .font1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
