@@ -75,6 +75,7 @@ html, body {
 .herocontainer .heroflex .herocontent p {
   font-weight: 400;
   margin-bottom: 1.5rem;
+  width: 62%;
 }
 
 .herobutton {
