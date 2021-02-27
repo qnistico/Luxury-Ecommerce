@@ -320,6 +320,7 @@ html, body {
 
 .kitchenproducts .kitchenproductsflex .kitchenitem .itemprice {
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .fa-star,
