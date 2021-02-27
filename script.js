@@ -30,6 +30,15 @@ var content = [
         price: "$3222222.00",
         content: "I am the best, still!",
         description: "Hand crafted fiber by superman as Jesus.  Each God sitting."
+    },
+    {
+        id: 4,
+        jsimg: "img/kitchenimg5-removebg-preview.png",
+        firstpar: "Leather Sofa",
+        h1: "Luxury Handmade Sofa",
+        price: "$32.00",
+        content: "I am the best",
+        description: "Hand crafted one fiber at a time by superman as well as Jesus.  Each fiber is blessed with the power of God and will grant immortality upon sitting."
     }
 
 ]
