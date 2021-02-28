@@ -107,7 +107,7 @@ html, body {
 
 .candles {
     width: 100%;
-    padding: 3rem;
+    padding: 0 3rem 0 3rem;
     /*
     .pickgradient {
         background: linear-gradient(to right, black, white);
@@ -187,6 +187,41 @@ html, body {
     .cardwords {
         padding: 1rem;
         background-color: white;
+    }
+}
+
+.cards2 {
+    width: 100%;
+    padding: 3rem 3rem 0 3rem;
+    .cards2flex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        img {
+            width: 100%;
+        }
+        .cards2content {
+            width: 100%;
+            background-color: #fff;
+            margin: 0 1rem 0 0;
+            text-align: center;
+            h2 {
+                font-size: 24px;
+                font-family: 'Playfair Display', serif;
+                font-weight: 500;
+            }
+            p {
+                margin: 0;
+            }
+            .cardwords {
+                padding: 1rem;
+            }
+        }
+        .c2c2 {
+            margin: 0 0 0 1rem;
+        }
     }
 }
 
@@ -293,7 +328,7 @@ html, body {
 }
 
 .opinion {
-    padding: 3rem;
+    padding: 0 3rem 0 3rem;
     .opinionflex {
         padding: 2rem;
     display: flex;

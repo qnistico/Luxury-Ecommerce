@@ -153,7 +153,7 @@ html, body {
 
 .candles {
   width: 100%;
-  padding: 3rem;
+  padding: 0 3rem 0 3rem;
   /*
     .pickgradient {
         background: linear-gradient(to right, black, white);
@@ -253,6 +253,57 @@ html, body {
 .cards .cardwords {
   padding: 1rem;
   background-color: white;
+}
+
+.cards2 {
+  width: 100%;
+  padding: 3rem 3rem 0 3rem;
+}
+
+.cards2 .cards2flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.cards2 .cards2flex img {
+  width: 100%;
+}
+
+.cards2 .cards2flex .cards2content {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 1rem 0 0;
+  text-align: center;
+}
+
+.cards2 .cards2flex .cards2content h2 {
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+.cards2 .cards2flex .cards2content p {
+  margin: 0;
+}
+
+.cards2 .cards2flex .cards2content .cardwords {
+  padding: 1rem;
+}
+
+.cards2 .cards2flex .c2c2 {
+  margin: 0 0 0 1rem;
 }
 
 .livingroomhero {
@@ -434,7 +485,7 @@ html, body {
 }
 
 .opinion {
-  padding: 3rem;
+  padding: 0 3rem 0 3rem;
 }
 
 .opinion .opinionflex {
