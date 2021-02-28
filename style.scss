@@ -292,6 +292,25 @@ html, body {
     }
 }
 
+.opinion {
+    padding: 3rem;
+    .opinionflex {
+        padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    background-color: #ebebeb;
+    p {
+        margin: 0 3rem;
+        font-size: 24px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+}
+}
+
 .page-footer {
     background-color: #ebebeb;
     color: black !important;
