@@ -33,7 +33,7 @@ html, body {
             justify-content: center;
             background-color: white;
             padding: 1rem;
-            margin: 7.15% 0 0 3rem;
+            margin: 18% 0 0 3rem;
             box-shadow: #c5c5c562 0 12px 24px 0;
             h1 {
                 font-size: 48px;
@@ -149,6 +149,7 @@ html, body {
     img {
         width: 100%;
         transition: all 0.2s linear;
+        
     }
     img:hover,
     img:active {
@@ -163,12 +164,12 @@ html, body {
             margin: 0 1rem;
             text-align: center;
             background-color: white;
-            box-shadow: #e2e2e262 0 12px 24px 0;
-            
-            h4 {
+            box-shadow: #0000001c 0 12px 62px 0;            
+            p {
                 font-size: 16px;
                 font-weight: 500;
                 margin-bottom: 0.25rem;
+                color: black;
             }
             h2 {
                 font-size: 1.5rem;
@@ -207,13 +208,16 @@ html, body {
             background-color: #fff;
             margin: 0 1rem 0 0;
             text-align: center;
+            box-shadow: #0000001c 0 12px 62px 0;
             h2 {
                 font-size: 24px;
                 font-family: 'Playfair Display', serif;
                 font-weight: 500;
+                color: black;
             }
             p {
                 margin: 0;
+                color: black;
             }
             .cardwords {
                 padding: 1rem;
@@ -281,13 +285,21 @@ html, body {
             width: 100%;
             margin-bottom: 1rem;
             background-color: #e7e7e7;
+            /*
+            box-shadow: #0000001c 0 12px 62px 0;
+            */
+
         }
         .kitchenitem,
         .livingroomitem {
-            width: 30%;
+            width: 20%;
             margin: 20px 20px;
+            p:first-of-type {
+                font-size: 1rem;
+            }
             p {
                 margin-bottom: 0.25rem;
+                font-weight: 500;
             }
             .itemprice {
                 font-weight: 500;
@@ -397,6 +409,17 @@ html, body {
     }
     .fa-bars {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .kitchenheroflex,
+    .livingroomheroflex {
+        flex-flow: column nowrap;
+        .kitchenherocontent,
+        .livingroomherocontent {
+            width: 100%;
+        }
     }
 }
 

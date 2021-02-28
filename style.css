@@ -54,7 +54,7 @@ html, body {
           justify-content: center;
   background-color: white;
   padding: 1rem;
-  margin: 7.15% 0 0 3rem;
+  margin: 18% 0 0 3rem;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
           box-shadow: #c5c5c562 0 12px 24px 0;
 }
@@ -226,14 +226,15 @@ html, body {
   margin: 0 1rem;
   text-align: center;
   background-color: white;
-  -webkit-box-shadow: #e2e2e262 0 12px 24px 0;
-          box-shadow: #e2e2e262 0 12px 24px 0;
+  -webkit-box-shadow: #0000001c 0 12px 62px 0;
+          box-shadow: #0000001c 0 12px 62px 0;
 }
 
-.cards .cardflex .cardcontent h4 {
+.cards .cardflex .cardcontent p {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 0.25rem;
+  color: black;
 }
 
 .cards .cardflex .cardcontent h2 {
@@ -286,16 +287,20 @@ html, body {
   background-color: #fff;
   margin: 0 1rem 0 0;
   text-align: center;
+  -webkit-box-shadow: #0000001c 0 12px 62px 0;
+          box-shadow: #0000001c 0 12px 62px 0;
 }
 
 .cards2 .cards2flex .cards2content h2 {
   font-size: 24px;
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  color: black;
 }
 
 .cards2 .cards2flex .cards2content p {
   margin: 0;
+  color: black;
 }
 
 .cards2 .cards2flex .cards2content .cardwords {
@@ -402,6 +407,9 @@ html, body {
   width: 100%;
   margin-bottom: 1rem;
   background-color: #e7e7e7;
+  /*
+            box-shadow: #0000001c 0 12px 62px 0;
+            */
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem,
@@ -412,8 +420,19 @@ html, body {
 .livingroomproducts .kitchenproductsflex .livingroomitem,
 .livingroomproducts .livingroomproductsflex .kitchenitem,
 .livingroomproducts .livingroomproductsflex .livingroomitem {
-  width: 30%;
+  width: 20%;
   margin: 20px 20px;
+}
+
+.kitchenproducts .kitchenproductsflex .kitchenitem p:first-of-type,
+.kitchenproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.kitchenproducts .livingroomproductsflex .kitchenitem p:first-of-type,
+.kitchenproducts .livingroomproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .kitchenproductsflex .kitchenitem p:first-of-type,
+.livingroomproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .livingroomproductsflex .kitchenitem p:first-of-type,
+.livingroomproducts .livingroomproductsflex .livingroomitem p:first-of-type {
+  font-size: 1rem;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem p,
@@ -425,6 +444,7 @@ html, body {
 .livingroomproducts .livingroomproductsflex .kitchenitem p,
 .livingroomproducts .livingroomproductsflex .livingroomitem p {
   margin-bottom: 0.25rem;
+  font-weight: 500;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem .itemprice,
@@ -583,5 +603,21 @@ html, body {
 
 .navbar .fa-bars {
   font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .kitchenheroflex,
+  .livingroomheroflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .kitchenheroflex .kitchenherocontent,
+  .kitchenheroflex .livingroomherocontent,
+  .livingroomheroflex .kitchenherocontent,
+  .livingroomheroflex .livingroomherocontent {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
