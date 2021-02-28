@@ -33,7 +33,7 @@ html, body {
             justify-content: center;
             background-color: white;
             padding: 1rem;
-            margin: 18% 0 0 3rem;
+            margin: 16% auto 0 auto;
             box-shadow: #c5c5c562 0 12px 24px 0;
             h1 {
                 font-size: 48px;
@@ -406,6 +406,8 @@ html, body {
         font-weight: 500;
         color: black;
         margin: 0 20px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 1px;
     }
     .fa-bars {
         font-size: 2rem;
