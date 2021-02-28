@@ -301,6 +301,14 @@ html, body {
     .font1 {
         font-family: 'Montserrat', sans-serif;
     }
+    .customerreview {
+        width: 100%;
+        .fa-star,
+        .fa-star-half-alt {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 .testimonials {

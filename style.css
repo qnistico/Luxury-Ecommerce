@@ -446,6 +446,16 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.page-footer .customerreview {
+  width: 100%;
+}
+
+.page-footer .customerreview .fa-star,
+.page-footer .customerreview .fa-star-half-alt {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .testimonials {
   width: 100%;
   padding: 3rem 1rem 3rem 1rem;
