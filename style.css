@@ -442,6 +442,10 @@ html, body {
   color: black !important;
 }
 
+.page-footer h6 {
+  font-family: 'Playfair Display', serif;
+}
+
 .page-footer .font1 {
   font-family: 'Montserrat', sans-serif;
 }
