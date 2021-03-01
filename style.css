@@ -198,8 +198,8 @@ html, body {
 .cardcontent:active,
 .cards2content:hover,
 .cards2content:active {
-  -webkit-box-shadow: #0000005d 0 2px 62px 0 !important;
-          box-shadow: #0000005d 0 2px 62px 0 !important;
+  -webkit-box-shadow: #0000005d 0 5px 62px 0 !important;
+          box-shadow: #0000005d 0 5px 62px 0 !important;
 }
 
 .cards {
