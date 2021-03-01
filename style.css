@@ -10,6 +10,7 @@ html, body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   background: #fafafa;
+  scroll-behavior: smooth;
 }
 
 .herocontainer {
@@ -193,6 +194,14 @@ html, body {
   margin-bottom: 0.5rem;
 }
 
+.cardcontent:hover,
+.cardcontent:active,
+.cards2content:hover,
+.cards2content:active {
+  -webkit-box-shadow: #0000005d 0 12px 62px 0 !important;
+          box-shadow: #0000005d 0 12px 62px 0 !important;
+}
+
 .cards {
   width: 100%;
   padding: 3rem 0 3rem 0;
@@ -228,6 +237,8 @@ html, body {
   background-color: white;
   -webkit-box-shadow: #0000001c 0 12px 62px 0;
           box-shadow: #0000001c 0 12px 62px 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .cards .cardflex .cardcontent p {
@@ -289,6 +300,8 @@ html, body {
   text-align: center;
   -webkit-box-shadow: #0000001c 0 12px 62px 0;
           box-shadow: #0000001c 0 12px 62px 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .cards2 .cards2flex .cards2content h2 {
@@ -545,6 +558,7 @@ html, body {
 
 .page-footer h6 {
   font-family: 'Playfair Display', serif;
+  font-size: 18px;
 }
 
 .page-footer .font1 {
@@ -600,11 +614,15 @@ html, body {
   color: black;
   margin: 0 20px;
   font-family: 'Playfair Display', serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .navbar .fa-bars {
   font-size: 2rem;
+}
+
+.fa-shopping-cart {
+  font-size: 1.75rem;
 }
 
 @media screen and (max-width: 768px) {

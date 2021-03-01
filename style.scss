@@ -10,6 +10,7 @@ html, body {
     font-weight: 400;
     
     background: #fafafa;
+    scroll-behavior: smooth;
     
 }
 
@@ -142,6 +143,13 @@ html, body {
     }
 }
 
+.cardcontent:hover,
+.cardcontent:active,
+.cards2content:hover,
+.cards2content:active {
+    box-shadow: #0000005d 0 12px 62px 0 !important;
+}
+
 .cards {
     width: 100%;
     padding: 3rem 0 3rem 0;
@@ -150,9 +158,6 @@ html, body {
         width: 100%;
         transition: all 0.2s linear;
         
-    }
-    img:hover,
-    img:active {
     }
     .cardflex {
         display: flex;
@@ -164,7 +169,8 @@ html, body {
             margin: 0 1rem;
             text-align: center;
             background-color: white;
-            box-shadow: #0000001c 0 12px 62px 0;            
+            box-shadow: #0000001c 0 12px 62px 0;  
+            transition: all 0.2s linear; 
             p {
                 font-size: 16px;
                 font-weight: 500;
@@ -209,6 +215,7 @@ html, body {
             margin: 0 1rem 0 0;
             text-align: center;
             box-shadow: #0000001c 0 12px 62px 0;
+            transition: all 0.2s linear;
             h2 {
                 font-size: 24px;
                 font-family: 'Playfair Display', serif;
@@ -366,6 +373,7 @@ html, body {
     }
     h6 {
         font-family: 'Playfair Display', serif;
+        font-size: 18px;
     }
     .font1 {
         font-family: 'Montserrat', sans-serif;
@@ -407,11 +415,15 @@ html, body {
         color: black;
         margin: 0 20px;
         font-family: 'Playfair Display', serif;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
     }
     .fa-bars {
         font-size: 2rem;
     }
+}
+
+.fa-shopping-cart {
+    font-size: 1.75rem;
 }
 
 @media screen and (max-width: 768px) {
