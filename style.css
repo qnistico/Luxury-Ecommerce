@@ -38,7 +38,7 @@ html, body {
 }
 
 .herocontainer .heroflex .herocontent {
-  width: 500px;
+  width: 32%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +55,7 @@ html, body {
           justify-content: center;
   background-color: white;
   padding: 1rem;
-  margin: 16% auto 0 auto;
+  margin: 17.5% auto 0 auto;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
           box-shadow: #c5c5c562 0 12px 24px 0;
 }
@@ -210,8 +210,6 @@ html, body {
 
 .cards img {
   width: 100%;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
 }
 
 .cards .cardflex {
