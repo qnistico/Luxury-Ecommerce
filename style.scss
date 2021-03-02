@@ -360,7 +360,6 @@ html, body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
     background-color: #ebebeb;
     p {
         margin: 0 3rem;
@@ -369,6 +368,19 @@ html, body {
         font-weight: 500;
     }
 }
+}
+
+.customers {
+    padding: 3rem;
+    margin-top: 0 !important;
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+    }
+    .carousel-item {
+        background-color: #ebebeb;
+        padding: 3rem;
+    }
 }
 
 .page-footer {
@@ -416,6 +428,8 @@ html, body {
 
 .navbar {
     background-color: white;
+    padding-top: 0;
+    padding-bottom: 0;
     .nav-link {
         font-weight: 500;
         color: black;
@@ -423,11 +437,18 @@ html, body {
         font-family: 'Playfair Display', serif;
         letter-spacing: 2px;
     }
+    .nav-item {
+        list-style-type: none;
+    }
     .fa-bars {
         font-size: 2rem;
     }
     .logo {
         width: 75px;
+    }
+    .cart {
+        position: relative;
+        top: 9px;
     }
 }
 
