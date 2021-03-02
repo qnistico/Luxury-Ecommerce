@@ -21,6 +21,11 @@ html, body {
   background-position: center -14rem;
 }
 
+.herocontainer .herologo {
+  margin-bottom: 1rem;
+  width: 9rem;
+}
+
 .herocontainer .heroflex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,8 +59,8 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: white;
-  padding: 1rem;
-  margin: 17.5% auto 0 auto;
+  padding: 2rem;
+  margin: 13% auto 0 auto;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
           box-shadow: #c5c5c562 0 12px 24px 0;
 }
@@ -145,6 +150,7 @@ html, body {
 .featured .featuredflex .featuredcontent h2 {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
 }
 
 .featured .featuredflex .featuredcontent .herobutton:hover,
@@ -198,8 +204,8 @@ html, body {
 .cardcontent:active,
 .cards2content:hover,
 .cards2content:active {
-  -webkit-box-shadow: #0000005d 0 1px 62px 0 !important;
-          box-shadow: #0000005d 0 1px 62px 0 !important;
+  -webkit-box-shadow: #0000005d 0 1px 32px 0 !important;
+          box-shadow: #0000005d 0 1px 32px 0 !important;
 }
 
 .cards {
@@ -226,6 +232,7 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 
 .cards .cardflex .cardcontent {
@@ -619,6 +626,10 @@ html, body {
   font-size: 2rem;
 }
 
+.navbar .logo {
+  width: 75px;
+}
+
 .fa-shopping-cart {
   font-size: 1.75rem;
 }
@@ -636,6 +647,25 @@ html, body {
   .livingroomheroflex .kitchenherocontent,
   .livingroomheroflex .livingroomherocontent {
     width: 100%;
+  }
+}
+
+.side-nav {
+  position: relative;
+  top: 3.65rem;
+}
+
+.sidenavbtn {
+  margin-top: 5rem;
+}
+
+main {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

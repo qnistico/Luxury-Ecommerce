@@ -46,13 +46,13 @@ var content = [
 
 
 
-var template = document.querySelector('template').innerHTML;
+// var template = document.querySelector('template').innerHTML;
 var params = new URLSearchParams(window.location.search)
 var id = params.get('id') || 1
 
 var data = content.find(x => x.id == id);
 
-document.querySelector('article').innerHTML = populateTemplate(template, data);
+// document.querySelector('article').innerHTML = populateTemplate(template, data);
 
 function populateTemplate(template, data) {
     for (i of Object.keys(data)) {
@@ -61,3 +61,17 @@ function populateTemplate(template, data) {
     return template;
 }
 
+$(document).ready(function() {
+    // SideNav Button Initialization
+    $(".button-collapse").sideNav();
+    // SideNav Scrollbar Initialization
+    var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+    var ps = new PerfectScrollbar(sideNavScrollbar);
+    });
+
+    $(document).ready(function() {
+        // Show sideNav
+        $('.button-collapse').sideNav('show');
+        // Hide sideNav
+        $('.button-collapse').sideNav('hide');
+        });
