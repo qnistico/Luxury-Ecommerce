@@ -275,7 +275,6 @@ html, body {
             flex-flow: column nowrap;
             justify-content: center;
             padding: 3rem;
-            margin-top: 3.54rem;
             h1 {
                 font-weight: 700;
                 font-family: 'Playfair Display', serif;
@@ -446,22 +445,24 @@ html, body {
         }
     }
 }
-
+/*
 .side-nav {
     position: relative;
     top: 3.65rem;
 }
 
 .sidenavbtn {
-    margin-top: 5rem;
+    top: 5rem;
+    position: relative;
 }
 
-main {
+.productcontainer {
     padding-left: 240px;
     }
     
-    @media only screen and (max-width : 992px) {
-    header, main, footer {
+    @media only screen and (max-width : 1500px) {
+    .productcontainer {
     padding-left: 0;
     }
     }
+*/

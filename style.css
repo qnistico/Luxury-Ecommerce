@@ -381,7 +381,6 @@ html, body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 3rem;
-  margin-top: 3.54rem;
 }
 
 .kitchenheroflex .kitchenherocontent h1,
@@ -650,22 +649,25 @@ html, body {
   }
 }
 
+/*
 .side-nav {
-  position: relative;
-  top: 3.65rem;
+    position: relative;
+    top: 3.65rem;
 }
 
 .sidenavbtn {
-  margin-top: 5rem;
+    top: 5rem;
+    position: relative;
 }
 
-main {
-  padding-left: 240px;
-}
-
-@media only screen and (max-width: 992px) {
-  header, main, footer {
+.productcontainer {
+    padding-left: 240px;
+    }
+    
+    @media only screen and (max-width : 1500px) {
+    .productcontainer {
     padding-left: 0;
-  }
-}
+    }
+    }
+*/
 /*# sourceMappingURL=style.css.map */
