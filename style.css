@@ -5,7 +5,8 @@
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -204,8 +205,8 @@ html, body {
 .cardcontent:active,
 .cards2content:hover,
 .cards2content:active {
-  -webkit-box-shadow: #0000005d 0 1px 32px 0 !important;
-          box-shadow: #0000005d 0 1px 32px 0 !important;
+  -webkit-box-shadow: #00000046 0 1px 32px 0 !important;
+          box-shadow: #00000046 0 1px 32px 0 !important;
 }
 
 .cards {
@@ -562,7 +563,57 @@ html, body {
 
 .customers .carousel-item {
   background-color: #ebebeb;
-  padding: 3rem;
+  padding: 2rem;
+}
+
+.customers h2 {
+  margin-bottom: 2rem;
+}
+
+.services {
+  width: 100%;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+}
+
+.services .servicesflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.services .servicesflex .serviceitem {
+  margin: 0 3rem;
+}
+
+.services .servicesflex .serviceitem h5 {
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.services .servicesflex .serviceitem p {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.fa-usps,
+.fa-hand-holding-usd,
+.fa-headset {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .page-footer {
@@ -591,6 +642,23 @@ html, body {
 .page-footer .customerreview .fa-star-half-alt {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+.page-footer .footerbootom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 
 .testimonials {
@@ -646,7 +714,7 @@ html, body {
 }
 
 .navbar .logo {
-  width: 75px;
+  width: 100px;
 }
 
 .navbar .cart {

@@ -1,122 +1,137 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    
-    background: #fafafa;
-    scroll-behavior: smooth;
-    
+html,
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+
+  background: #fafafa;
+  scroll-behavior: smooth;
+
 }
 
 
 
 .herocontainer {
-    width: 100%;
-    min-height: 100vh;
-    background: url(img/mansion1.jpg);
-    background-size: cover;
-    background-position: center -14rem;
-    .herologo {
-        margin-bottom: 1rem;
-        width: 9rem;
-    }
-    .heroflex {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        .herocontent {
-            width: 32%;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            padding: 2rem;
-            margin: 13% auto 0 auto;
-            box-shadow: #c5c5c562 0 12px 24px 0;
-            h1 {
-                font-size: 48px;
-                font-weight: 900;
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 1rem;
-            }
-            h2 {
-                font-weight: 900;
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  background: url(img/mansion1.jpg);
+  background-size: cover;
+  background-position: center -14rem;
 
-            }
-            p {
-                font-weight: 400;
-                margin-bottom: 1.5rem;
-                width: 62%;
-            }
-        }
+  .herologo {
+    margin-bottom: 1rem;
+    width: 9rem;
+  }
+
+  .heroflex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .herocontent {
+      width: 32%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      padding: 2rem;
+      margin: 13% auto 0 auto;
+      box-shadow: #c5c5c562 0 12px 24px 0;
+
+      h1 {
+        font-size: 48px;
+        font-weight: 900;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        font-weight: 900;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 1rem;
+
+      }
+
+      p {
+        font-weight: 400;
+        margin-bottom: 1.5rem;
+        width: 62%;
+      }
     }
+  }
 }
 
 .herobutton {
-    background-color: #424242;
-    color: white;
-    font-weight: 500;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    width: 175px;
-    text-align: center;
-    border: 2px solid #424242;
+  background-color: #424242;
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width: 175px;
+  text-align: center;
+  border: 2px solid #424242;
 }
+
 .herobutton:hover,
 .herobutton:active {
-    background-color: transparent;
-    color: black;
+  background-color: transparent;
+  color: black;
 }
 
 .featured {
-    width: 100%;
-    padding: 3rem;
-    .featuredflex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        background-color: #333;
-        img {
-            width: 50%;
-            filter: brightness(85%);
-        }
-        .featuredcontent {
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            padding: 3rem;
-            color: white;
-            p {
-                font-weight: 400;
-            }
-            h2 {
-                font-weight: 700;
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 1rem;
-            }
-            .herobutton:hover,
-            .herobutton:active {
-                color: white;
-            }
-        }
+  width: 100%;
+  padding: 3rem;
+
+  .featuredflex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+
+    img {
+      width: 50%;
+      filter: brightness(85%);
     }
+
+    .featuredcontent {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      padding: 3rem;
+      color: white;
+
+      p {
+        font-weight: 400;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 1rem;
+      }
+
+      .herobutton:hover,
+      .herobutton:active {
+        color: white;
+      }
+    }
+  }
 }
 
 .candles {
-    width: 100%;
-    padding: 0 3rem 0 3rem;
-    /*
+  width: 100%;
+  padding: 0 3rem 0 3rem;
+
+  /*
     .pickgradient {
         background: linear-gradient(to right, black, white);
         position:relative;
@@ -130,342 +145,440 @@ html, body {
         background: linear-gradient(360deg, #5f5f5f5b, #5555554b);
       }
       */
-    img {
-        width: 100%;
-        max-height: 350px;
+  img {
+    width: 100%;
+    max-height: 350px;
+  }
+
+  .candlecontent {
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: #e2e2e262 0 12px 24px 0;
+
+    h2 {
+      font-size: 24px;
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 500;
     }
-    .candlecontent {
-        background-color: white;
-        padding: 1rem;
-        text-align: center;
-        box-shadow: #e2e2e262 0 12px 24px 0;
-        h2 {
-            font-size: 24px;
-            font-family: 'Playfair Display', sans-serif;
-            font-weight: 500;
-        }
-        p {
-            margin-bottom: 0.5rem;
-        }
+
+    p {
+      margin-bottom: 0.5rem;
     }
+  }
 }
 
 .cardcontent:hover,
 .cardcontent:active,
 .cards2content:hover,
 .cards2content:active {
-    box-shadow: #0000005d 0 1px 32px 0 !important;
+  box-shadow: #00000046 0 1px 32px 0 !important;
 }
 
 .cards {
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+  color: #323232;
+
+  img {
     width: 100%;
-    padding: 3rem 0 3rem 0;
-    color: #323232;
-    img {
-        width: 100%;
-        
+
+  }
+
+  .cardflex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .cardcontent {
+      width: 30%;
+      margin: 0 1rem;
+      text-align: center;
+      background-color: white;
+      box-shadow: #0000001c 0 12px 62px 0;
+      transition: all 0.2s linear;
+
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+        color: black;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #323232;
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 0.25rem;
+      }
+
+      .herobutton:hover,
+      .herobutton:active {
+        background-color: transparent;
+        color: black;
+      }
     }
-    .cardflex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        .cardcontent {
-            width: 30%;
-            margin: 0 1rem;
-            text-align: center;
-            background-color: white;
-            box-shadow: #0000001c 0 12px 62px 0;  
-            transition: all 0.2s linear; 
-            p {
-                font-size: 16px;
-                font-weight: 500;
-                margin-bottom: 0.25rem;
-                color: black;
-            }
-            h2 {
-                font-size: 1.5rem;
-                font-weight: 500;
-                color: #323232;
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 0.25rem;
-            }
-            .herobutton:hover,
-            .herobutton:active {
-                background-color: transparent;
-                color: black;
-            }
-        }
-    }
-    .cardwords {
-        padding: 1rem;
-        background-color: white;
-    }
+  }
+
+  .cardwords {
+    padding: 1rem;
+    background-color: white;
+  }
 }
 
 .cards2 {
-    width: 100%;
-    padding: 3rem 3rem 0 3rem;
-    .cards2flex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        img {
-            width: 100%;
-        }
-        .cards2content {
-            width: 100%;
-            background-color: #fff;
-            margin: 0 1rem 0 0;
-            text-align: center;
-            box-shadow: #0000001c 0 12px 62px 0;
-            transition: all 0.2s linear;
-            h2 {
-                font-size: 24px;
-                font-family: 'Playfair Display', serif;
-                font-weight: 500;
-                color: black;
-            }
-            p {
-                margin: 0;
-                color: black;
-            }
-            .cardwords {
-                padding: 1rem;
-            }
-        }
-        .c2c2 {
-            margin: 0 0 0 1rem;
-        }
+  width: 100%;
+  padding: 3rem 3rem 0 3rem;
+
+  .cards2flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    img {
+      width: 100%;
     }
+
+    .cards2content {
+      width: 100%;
+      background-color: #fff;
+      margin: 0 1rem 0 0;
+      text-align: center;
+      box-shadow: #0000001c 0 12px 62px 0;
+      transition: all 0.2s linear;
+
+      h2 {
+        font-size: 24px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 500;
+        color: black;
+      }
+
+      p {
+        margin: 0;
+        color: black;
+      }
+
+      .cardwords {
+        padding: 1rem;
+      }
+    }
+
+    .c2c2 {
+      margin: 0 0 0 1rem;
+    }
+  }
 }
 
 .livingroomhero {
-    background-image: url(img/livingroom.jpg);
-    object-fit: cover;
-    width: 100%;
-    background-size: cover;
-    background-position: 18rem 50%;
-    min-height: 55vh;
+  background-image: url(img/livingroom.jpg);
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 55vh;
 }
 
 .kitchenhero {
-    background-image: url(img/kitchen.jpg);
-    object-fit: cover;
-    width: 100%;
-    background-size: cover;
-    background-position: 18rem 50%;
-    min-height: 55vh;
+  background-image: url(img/kitchen.jpg);
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 55vh;
 }
 
-    .kitchenheroflex,
-    .livingroomheroflex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        .kitchenherocontent,
-        .livingroomherocontent {
-            width: 38%;
-            background-color: #F7f2ed;
-            min-height: 55vh;
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            padding: 3rem;
-            h1 {
-                font-weight: 700;
-                font-family: 'Playfair Display', serif;
-                margin-bottom: 1rem;
-            }
-        }
+.kitchenheroflex,
+.livingroomheroflex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  .kitchenherocontent,
+  .livingroomherocontent {
+    width: 38%;
+    background-color: #F7f2ed;
+    min-height: 55vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 3rem;
+
+    h1 {
+      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
     }
+  }
+}
 
 
 .kitchenproducts,
 .livingroomproducts {
-    width: 100%;
-    padding: 3rem 0 3rem 0;
-    .kitchenproductsflex,
-    .livingroomproductsflex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        img {
-            width: 100%;
-            margin-bottom: 1rem;
-            background-color: #e7e7e7;
-            /*
+  width: 100%;
+  padding: 3rem 0 3rem 0;
+
+  .kitchenproductsflex,
+  .livingroomproductsflex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      margin-bottom: 1rem;
+      background-color: #e7e7e7;
+      /*
             box-shadow: #0000001c 0 12px 62px 0;
             */
 
-        }
-        .kitchenitem,
-        .livingroomitem {
-            width: 20%;
-            margin: 20px 20px;
-            p:first-of-type {
-                font-size: 1rem;
-            }
-            p {
-                margin-bottom: 0.25rem;
-                font-weight: 500;
-            }
-            .itemprice {
-                font-weight: 500;
-                font-family: 'Montserrat', sans-serif;
-            }
-        }
     }
+
+    .kitchenitem,
+    .livingroomitem {
+      width: 20%;
+      margin: 20px 20px;
+
+      p:first-of-type {
+        font-size: 1rem;
+      }
+
+      p {
+        margin-bottom: 0.25rem;
+        font-weight: 500;
+      }
+
+      .itemprice {
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+  }
 }
 
 .fa-star,
 .fa-star-half-alt {
-    color: #e0bc75;
+  color: #e0bc75;
 }
 
 
-.templateflex { 
+.templateflex {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+
+  img {
+    width: 50%;
+    margin: 5rem 1rem 5rem 1rem;
+    background-color: #e7e7e7;
+  }
+
+  .templatecontent {
+    width: 100%;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    width: 80%;
-    margin: auto;
-    
-    img {
-        width: 50%;
-        margin: 5rem 1rem 5rem 1rem;
-        background-color: #e7e7e7;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 5rem 1rem 5rem 1rem;
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
     }
-    .templatecontent {
-        width: 100%;
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        margin: 5rem 1rem 5rem 1rem;
-        h3 {
-            font-family: 'Montserrat', sans-serif;
-        }
-    }
+  }
 }
 
 .opinion {
-    padding: 0 3rem 0 3rem;
-    .opinionflex {
-        padding: 2rem;
+  padding: 0 3rem 0 3rem;
+
+  .opinionflex {
+    padding: 2rem;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
     background-color: #ebebeb;
+
     p {
-        margin: 0 3rem;
-        font-size: 24px;
-        font-family: 'Playfair Display', serif;
-        font-weight: 500;
+      margin: 0 3rem;
+      font-size: 24px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
     }
-}
+  }
 }
 
 .customers {
-    padding: 3rem;
-    margin-top: 0 !important;
-    h2 {
+  padding: 3rem;
+  margin-top: 0 !important;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+  }
+
+  .carousel-item {
+    background-color: #ebebeb;
+    padding: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.services {
+  width: 100%;
+  text-align: center;
+  background-color: #424242;
+  color: white;
+
+  .servicesflex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    .serviceitem {
+      margin: 0 3rem;
+
+      h5 {
+        font-size: 20px;
         font-family: 'Playfair Display', serif;
+        font-weight: 700;
+      }
+
+      p {
+        margin-bottom: 0;
         font-weight: 500;
+      }
     }
-    .carousel-item {
-        background-color: #ebebeb;
-        padding: 3rem;
-    }
+  }
+}
+
+.fa-usps,
+.fa-hand-holding-usd,
+.fa-headset {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 .page-footer {
-    background-color: #ebebeb;
+  background-color: #ebebeb;
+  color: black !important;
+
+  a {
     color: black !important;
-    a {
-        color: black !important;
+  }
+
+  h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+
+  .font1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .customerreview {
+    width: 100%;
+
+    .fa-star,
+    .fa-star-half-alt {
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
-    h6 {
-        font-family: 'Playfair Display', serif;
-        font-size: 18px;
-    }
-    .font1 {
-        font-family: 'Montserrat', sans-serif;
-    }
-    .customerreview {
-        width: 100%;
-        .fa-star,
-        .fa-star-half-alt {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-    }
+  }
+
+  .footerbootom {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 }
 
+
+
 .testimonials {
-    width: 100%;
-    padding: 3rem 1rem 3rem 1rem;
-    .testimonialflex {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: center;
-        .testimonial-card {
-            width: 30%;
-            margin: 0 20px;
-            .card-up {
-                background-color: #333;
-            }
-        }
+  width: 100%;
+  padding: 3rem 1rem 3rem 1rem;
+
+  .testimonialflex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    .testimonial-card {
+      width: 30%;
+      margin: 0 20px;
+
+      .card-up {
+        background-color: #333;
+      }
     }
+  }
 }
 
 
 
 .navbar {
-    background-color: white;
-    padding-top: 0;
-    padding-bottom: 0;
-    .nav-link {
-        font-weight: 500;
-        color: black;
-        margin: 0 20px;
-        font-family: 'Playfair Display', serif;
-        letter-spacing: 2px;
-    }
-    .nav-item {
-        list-style-type: none;
-    }
-    .fa-bars {
-        font-size: 2rem;
-    }
-    .logo {
-        width: 75px;
-    }
-    .cart {
-        position: relative;
-        top: 9px;
-    }
+  background-color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .nav-link {
+    font-weight: 500;
+    color: black;
+    margin: 0 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+  }
+
+  .nav-item {
+    list-style-type: none;
+  }
+
+  .fa-bars {
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .cart {
+    position: relative;
+    top: 9px;
+  }
 }
 
 .fa-shopping-cart {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 @media screen and (max-width: 768px) {
-    .kitchenheroflex,
-    .livingroomheroflex {
-        flex-flow: column nowrap;
-        .kitchenherocontent,
-        .livingroomherocontent {
-            width: 100%;
-        }
+
+  .kitchenheroflex,
+  .livingroomheroflex {
+    flex-flow: column nowrap;
+
+    .kitchenherocontent,
+    .livingroomherocontent {
+      width: 100%;
     }
+  }
 }
+
 /*
 .side-nav {
     position: relative;
