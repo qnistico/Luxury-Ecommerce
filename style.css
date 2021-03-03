@@ -748,6 +748,66 @@ body {
   top: 9px;
 }
 
+.modal-backdrop {
+  z-index: 1;
+}
+
+.modalbutton {
+  background-color: #424242;
+  color: white;
+  border: 2px solid #424242;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  font-weight: 500;
+}
+
+.modalbutton:hover,
+.modalbutton:active {
+  background-color: transparent;
+  color: black;
+}
+
+.modalexit {
+  background-color: transparent;
+  border: 2px solid #424242;
+  color: black;
+}
+
+.nav-tabs {
+  background-color: #333;
+  color: white;
+}
+
+.m0 {
+  color: white !important;
+}
+
+.fa-user,
+.fa-user-plus {
+  color: white !important;
+}
+
+.userdark {
+  color: #333 !important;
+}
+
+.modal h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+.modal .modal-header {
+  background-color: #333;
+  color: white;
+}
+
+.modal .close {
+  color: white;
+}
+
+.modal label, .modal i {
+  color: #333;
+}
+
 .fa-shopping-cart {
   font-size: 1.75rem;
 }
