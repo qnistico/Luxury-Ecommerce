@@ -22,8 +22,7 @@ body {
   min-height: 100vh;
   background: url(img/mansion1.jpg);
   background-size: cover;
-  background-position: center -14rem;
-
+  background-position: center center;
   .herologo {
     margin-bottom: 1rem;
     width: 9rem;
@@ -415,35 +414,43 @@ body {
 }
 
 .customers {
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   margin-top: 0 !important;
+  color: white;
 
   h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    margin-bottom: 2rem;
   }
 
   .carousel-item {
-    background-color: #ebebeb;
+    background-color: #333; 
     padding: 2rem;
   }
 
-  h2 {
-    margin-bottom: 2rem;
-  }
 }
+
+.testimonial-carousel .carousel-control.right::before {
+    content: "\203a";
+    color: white;
+}
+
+.testimonial-carousel .carousel-control.left::before {
+    color: white;
+}
+
 
 .services {
   width: 100%;
-  text-align: center;
-  background-color: #424242;
-  color: white;
+  padding: 0 3rem 3rem 3rem;
 
   .servicesflex {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #ebebeb;
     padding: 1rem;
 
     .serviceitem {
@@ -463,17 +470,60 @@ body {
   }
 }
 
+.font1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
 .fa-usps,
 .fa-hand-holding-usd,
 .fa-headset {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.customerservice {
+    width: 100%;
+    background-color: #ebebeb;
+    .customerserviceflex {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+        .customerservicecontent {
+            h6 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+            .form-control {
+                border-color: #333 !important;
+            }
+        }
+        a {
+            color: black;
+        }
+        .herobutton {
+            color: white;
+        }
+        .herobutton:hover,
+        .herobutton:active {
+            color: black;
+        }
+        .md-textarea {
+            max-height: 50px;
+        }
+}
+.contact {
+    width: 62%;
 }
 
 .page-footer {
   background-color: #ebebeb;
   color: black !important;
-
+  .footerbottom {
+    margin: auto;
+    padding: 0.5rem !important;
+  }
   a {
     color: black !important;
   }
@@ -483,9 +533,20 @@ body {
     font-size: 18px;
   }
 
-  .font1 {
-    font-family: 'Montserrat', sans-serif;
+  .herobutton {
+      color: white !important;
   }
+
+  .herobutton:hover,
+  .herobutton:active {
+      color: black !important;
+  }
+
+  .buttonbox {
+      margin-top: 1rem;
+  }
+
+  
 
   .customerreview {
     width: 100%;
@@ -497,37 +558,12 @@ body {
     }
   }
 
-  .footerbootom {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
+  
 }
 
 
 
-.testimonials {
-  width: 100%;
-  padding: 3rem 1rem 3rem 1rem;
 
-  .testimonialflex {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-
-    .testimonial-card {
-      width: 30%;
-      margin: 0 20px;
-
-      .card-up {
-        background-color: #333;
-      }
-    }
-  }
-}
 
 
 

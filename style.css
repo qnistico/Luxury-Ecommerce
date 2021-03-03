@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   background: url(img/mansion1.jpg);
   background-size: cover;
-  background-position: center -14rem;
+  background-position: center center;
 }
 
 .herocontainer .herologo {
@@ -552,29 +552,34 @@ body {
 }
 
 .customers {
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   margin-top: 0 !important;
+  color: white;
 }
 
 .customers h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .customers .carousel-item {
-  background-color: #ebebeb;
+  background-color: #333;
   padding: 2rem;
 }
 
-.customers h2 {
-  margin-bottom: 2rem;
+.testimonial-carousel .carousel-control.right::before {
+  content: "\203a";
+  color: white;
+}
+
+.testimonial-carousel .carousel-control.left::before {
+  color: white;
 }
 
 .services {
   width: 100%;
-  text-align: center;
-  background-color: #424242;
-  color: white;
+  padding: 0 3rem 3rem 3rem;
 }
 
 .services .servicesflex {
@@ -588,9 +593,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ebebeb;
   padding: 1rem;
 }
 
@@ -609,16 +614,75 @@ body {
   font-weight: 500;
 }
 
+.font1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .fa-usps,
 .fa-hand-holding-usd,
 .fa-headset {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.customerservice {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+.customerservice .customerserviceflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.customerservice .customerserviceflex .customerservicecontent h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.customerservice .customerserviceflex .form-control {
+  border-color: #333 !important;
+}
+
+.customerservice a {
+  color: black;
+}
+
+.customerservice .herobutton {
+  color: white;
+}
+
+.customerservice .herobutton:hover,
+.customerservice .herobutton:active {
+  color: black;
+}
+
+.customerservice .md-textarea {
+  max-height: 50px;
+}
+
+.contact {
+  width: 62%;
 }
 
 .page-footer {
   background-color: #ebebeb;
   color: black !important;
+}
+
+.page-footer .footerbottom {
+  margin: auto;
+  padding: 0.5rem !important;
 }
 
 .page-footer a {
@@ -630,8 +694,17 @@ body {
   font-size: 18px;
 }
 
-.page-footer .font1 {
-  font-family: 'Montserrat', sans-serif;
+.page-footer .herobutton {
+  color: white !important;
+}
+
+.page-footer .herobutton:hover,
+.page-footer .herobutton:active {
+  color: black !important;
+}
+
+.page-footer .buttonbox {
+  margin-top: 1rem;
 }
 
 .page-footer .customerreview {
@@ -642,53 +715,6 @@ body {
 .page-footer .customerreview .fa-star-half-alt {
   font-size: 2rem;
   margin-bottom: 1rem;
-}
-
-.page-footer .footerbootom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-}
-
-.testimonials {
-  width: 100%;
-  padding: 3rem 1rem 3rem 1rem;
-}
-
-.testimonials .testimonialflex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.testimonials .testimonialflex .testimonial-card {
-  width: 30%;
-  margin: 0 20px;
-}
-
-.testimonials .testimonialflex .testimonial-card .card-up {
-  background-color: #333;
 }
 
 .navbar {
