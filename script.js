@@ -61,3 +61,8 @@ function populateTemplate(template, data) {
     return template;
 }
 
+$(window).on('beforeunload', function() {
+    $('body').hide();
+    $(window).scrollTop(0);
+});
+
