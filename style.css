@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
   background: #fafafa;
   scroll-behavior: smooth;
 }
@@ -727,6 +728,7 @@ body {
   background-color: white;
   padding-top: 0;
   padding-bottom: 0;
+  max-height: 62px;
 }
 
 .navbar .nav-link {
@@ -819,6 +821,102 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .herocontainer .herocontent {
+    padding: 1rem !important;
+    width: 300px !important;
+    margin-top: 11rem !important;
+  }
+  .herocontainer .herocontent h1 {
+    font-size: 32px !important;
+  }
+  .herocontainer .herocontent p {
+    width: 100% !important;
+  }
+  .cards,
+  .cards2 {
+    padding: 1rem;
+  }
+  .cardflex,
+  .cards2flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  .cardflex .cardcontent,
+  .cardflex .cards2content,
+  .cards2flex .cardcontent,
+  .cards2flex .cards2content {
+    width: 100% !important;
+    margin: 0 0 2rem 0 !important;
+  }
+  .cardflex .c2c2,
+  .cards2flex .c2c2 {
+    margin-left: 0;
+  }
+  .candles {
+    padding: 1rem;
+  }
+  .featured {
+    padding: 1rem;
+  }
+  .featuredflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  .featuredflex img {
+    width: 100% !important;
+  }
+  .featuredflex .featuredcontent {
+    padding: 2rem !important;
+  }
+  .opinion {
+    padding: 1rem;
+  }
+  .opinion .opinionflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 1rem;
+  }
+  .opinion .opinionflex p {
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+  .customers {
+    padding: 1rem;
+  }
+  .customers .carousel-item {
+    padding: 1rem;
+  }
+  .services {
+    padding: 1rem;
+    text-align: center;
+  }
+  .services .servicesflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .services .servicesflex .serviceitem {
+    margin-bottom: 2rem;
+  }
+  .customerserviceflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+  }
+  .customerserviceflex .contact {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .kitchenheroflex,
   .livingroomheroflex {
     -webkit-box-orient: vertical;
@@ -831,6 +929,9 @@ body {
   .livingroomheroflex .kitchenherocontent,
   .livingroomheroflex .livingroomherocontent {
     width: 100%;
+  }
+  .navbar {
+    max-height: unset;
   }
 }
 
