@@ -141,7 +141,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 3rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.884);
 }
 
 .featured .featuredflex .featuredcontent p {
@@ -154,9 +154,15 @@ body {
   margin-bottom: 1rem;
 }
 
+.featured .featuredflex .featuredcontent .herobutton {
+  background-color: #ebebeb;
+  color: black;
+}
+
 .featured .featuredflex .featuredcontent .herobutton:hover,
 .featured .featuredflex .featuredcontent .herobutton:active {
   color: white;
+  background-color: #424242;
 }
 
 .candles {
@@ -554,7 +560,7 @@ body {
 .customers {
   padding: 3rem 3rem 0 3rem;
   margin-top: 0 !important;
-  color: white;
+  color: rgba(255, 255, 255, 0.884);
 }
 
 .customers h2 {
@@ -769,7 +775,7 @@ body {
 
 .modalexit {
   background-color: transparent;
-  border: 2px solid #424242;
+  border: 2px solid #333;
   color: black;
 }
 

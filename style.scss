@@ -106,7 +106,7 @@ body {
       flex-flow: column nowrap;
       justify-content: center;
       padding: 3rem;
-      color: white;
+      color: rgba(255, 255, 255, 0.884);
 
       p {
         font-weight: 400;
@@ -118,9 +118,15 @@ body {
         margin-bottom: 1rem;
       }
 
+      .herobutton {
+        background-color: #ebebeb;
+        color: black;
+      }
+
       .herobutton:hover,
       .herobutton:active {
         color: white;
+        background-color: #424242;
       }
     }
   }
@@ -416,7 +422,7 @@ body {
 .customers {
   padding: 3rem 3rem 0 3rem;
   margin-top: 0 !important;
-  color: white;
+  color: rgba(255, 255, 255, 0.884);
 
   h2 {
     font-family: 'Playfair Display', serif;
@@ -615,7 +621,7 @@ body {
 }
 .modalexit {
   background-color: transparent;
-  border: 2px solid #424242;
+  border: 2px solid #333;
   color: black;
 }
 .nav-tabs {
