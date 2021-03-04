@@ -308,7 +308,7 @@ body {
 
 .cards2 .cards2flex .cards2content {
   width: 100%;
-  background-color: #fff;
+  background-color: white;
   margin: 0 1rem 0 0;
   text-align: center;
   -webkit-box-shadow: #0000001c 0 12px 62px 0;
@@ -344,7 +344,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: 18rem 50%;
-  min-height: 55vh;
+  min-height: 62vh;
 }
 
 .kitchenhero {
@@ -376,8 +376,8 @@ body {
 .livingroomheroflex .kitchenherocontent,
 .livingroomheroflex .livingroomherocontent {
   width: 38%;
-  background-color: #F7f2ed;
-  min-height: 55vh;
+  background-color: #f1e7dc;
+  min-height: 62vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,6 +398,7 @@ body {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
+  margin-top: 4rem;
 }
 
 .kitchenproducts,
@@ -548,7 +549,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #ebebeb;
+  background-color: #f1e7dc;
 }
 
 .opinion .opinionflex p {
@@ -602,12 +603,25 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: #ebebeb;
+  background-color: #f1e7dc;
   padding: 1rem;
 }
 
 .services .servicesflex .serviceitem {
   margin: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .services .servicesflex .serviceitem h5 {
@@ -824,7 +838,7 @@ body {
   .herocontainer .herocontent {
     padding: 1rem !important;
     width: 300px !important;
-    margin-top: 11rem !important;
+    margin-top: 50% !important;
   }
   .herocontainer .herocontent h1 {
     font-size: 32px !important;
@@ -914,6 +928,10 @@ body {
   .customerserviceflex .contact {
     width: 100%;
   }
+}
+
+.fa-quote-left {
+  margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 1300px) {

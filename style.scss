@@ -251,7 +251,7 @@ body {
 
     .cards2content {
       width: 100%;
-      background-color: #fff;
+      background-color: white;
       margin: 0 1rem 0 0;
       text-align: center;
       box-shadow: #0000001c 0 12px 62px 0;
@@ -286,7 +286,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: 18rem 50%;
-  min-height: 55vh;
+  min-height: 62vh;
 }
 
 .kitchenhero {
@@ -307,8 +307,8 @@ body {
   .kitchenherocontent,
   .livingroomherocontent {
     width: 38%;
-    background-color: #F7f2ed;
-    min-height: 55vh;
+    background-color: #f1e7dc;
+    min-height: 62vh;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -318,6 +318,7 @@ body {
       font-weight: 700;
       font-family: 'Playfair Display', serif;
       margin-bottom: 1rem;
+      margin-top: 4rem;
     }
   }
 }
@@ -408,7 +409,7 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    background-color: #ebebeb;
+    background-color: #f1e7dc;
 
     p {
       margin: 0 3rem;
@@ -456,11 +457,15 @@ body {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
-    background-color: #ebebeb;
+    background-color: #f1e7dc;
     padding: 1rem;
 
     .serviceitem {
       margin: 0 3rem;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
 
       h5 {
         font-size: 20px;
@@ -669,7 +674,7 @@ body {
     .herocontent {
       padding: 1rem !important;
       width: 300px !important;
-      margin-top: 11rem !important;
+      margin-top: 50% !important;
       h1 {
         font-size: 32px !important;
       }
@@ -743,6 +748,10 @@ body {
       width: 100%;
     }
   }
+}
+
+.fa-quote-left {
+  margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 1300px) {
