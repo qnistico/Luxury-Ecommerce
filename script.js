@@ -46,7 +46,7 @@ var content = [
 
 
 
-var template = document.querySelector('template').innerHTML;
+if ($('template').length > 0) {var template = document.querySelector('template').innerHTML;
 var params = new URLSearchParams(window.location.search)
 var id = params.get('id') || 1
 
@@ -60,9 +60,9 @@ function populateTemplate(template, data) {
     }
     return template;
 }
+}
 
-$(window).on('beforeunload', function() {
-    $('body').hide();
-    $(window).scrollTop(0);
-});
+
+
+
 
