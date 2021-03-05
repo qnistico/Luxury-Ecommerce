@@ -159,7 +159,7 @@ function updateCartTotal(){
         
     }
     //update total on website HTML
-    document.getElementById("total").innerHTML = total.toFixed(2);
+    //document.getElementById("total").innerHTML = total.toFixed(2);
     //insert saved products to cart table
     document.getElementById("carttable").innerHTML = carttable;
     //update items in cart on website HTML
