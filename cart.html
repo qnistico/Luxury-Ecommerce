@@ -528,129 +528,46 @@
   </nav>
 <!-- SideNav slide-out button -->
 <body>
-<main class="productcontainer">
+  <div class="container container1"> 
+    
+    <div id="alerts"></div>
+         <div class="cart-container">
+           <h2>Cart</h2>
+           <table>
+             <thead>
+               <tr>
+               <th><strong>Product</strong></th>
+               <th><strong>Price</strong></th>
+             </tr>
+             </thead>
+             <tbody id="carttable">
+             </tbody>
+           </table>
+           <hr>
+           <table id="carttotals">
+             <tr>
+               <td><strong>Items</strong></td>
+               <td><strong>Total</strong></td>
+             </tr>
+             <tr>
+               <td>x <span id="itemsquantity">0</span></td>
+              
+               <td>$<span id="total">0</span></td>
+             </tr></table>
   
-  <article class="livingroomhero">
-      <div class="livingroomheroflex">
-          <div class="livingroomherocontent">
-              <h1>Living Room Furniture & Decor</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-      </div>
-  </article>
-  <article class="livingroomproducts">
-    <div class="livingroomproductsflex">
-      <div class="livingroomitem">
-          <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=4"><img src="img/livingroom1-removebg-preview.png" alt=""></a>
-          <p class="productname">Wooden Multifunctional Table</p>
-          <p class="itemprice price">$999.99</p>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <p>Free Shipping</p>
-          <button class="addtocart herobutton w-75">Add to Cart</button>
-      </div>
-      <div class="livingroomitem">
-          <a href=""><img src="img/livingroom2-removebg-preview.png" alt=""></a>
-          <p>Handmade Gold Bowls</p>
-          <p class="itemprice">$65.00</p>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <p>Free Shipping</p>
-      </div>
-      <div class="livingroomitem">
-          <a href=""><img src="img/couch-removebg-preview.png" alt=""></a>
-          <p>Light Fixture</p>
-          <p class="itemprice">$75.00</p>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <p>Free Shipping</p>
-      </div>
-      <div class="livingroomitem">
-          <a href=""><img src="img/couch-removebg-preview.png" alt=""></a>
-          <p>Light Fixture</p>
-          <p class="itemprice">$75.00</p>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <p>Free Shipping</p>
-      </div>
+             
+           <div class="cart-buttons">  
+             <button id="emptycart">Empty Cart</button>
+             <button id="checkout">Checkout</button>
+           </div>
+         </div>
   </div>
-      <div class="kitchenproductsflex">
-          <div class="livingroomitem">
-              <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=1"><img src="img/kitchensilverware-removebg-preview.png" alt=""></a>
-              <p>Silver Cutlery Set</p>
-              <p class="itemprice">$299.99</p>
-              <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-              <p>Free Shipping</p>
-          </div>
-          <div class="livingroomitem">
-              <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=2"><img src="img/kitchenimg2-removebg-preview.png" alt=""></a>
-              <p>Handmade Gold Bowls</p>
-              <p class="itemprice">$65.00</p>
-              <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-              <p>Free Shipping</p>
-          </div>
-          <div class="livingroomitem">
-              <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=3"><img src="img/kitchenimg3.png" alt=""></a>
-              <p>Light Fixture</p>
-              <p class="itemprice">$75.00</p>
-              <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-              <p>Free Shipping</p>
-          </div>
-          <div class="livingroomitem">
-              <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=3"><img src="img/kitchenimg3.png" alt=""></a>
-              <p>Light Fixture</p>
-              <p class="itemprice">$75.00</p>
-              <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-              <p>Free Shipping</p>
-          </div>
-      </div>
-  </article>
   <footer class="page-footer font-small pt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
   
-      <!-- Footer links -->
-  <!-- 
-      <div class="text-center customerreview">
-        <p class="font1">4.5 / 5</p>
-        <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-            <p class="font1">32,000 Trusted Customer Reviews</p>
-            <hr>
-      </div>
-    -->
+      
   
       <div class="row text-center text-md-left mt-3 pb-3">
   
@@ -765,40 +682,6 @@
     <!-- Footer Links -->
   
   </footer>
-  <div class="container hide1"> 
-    
-    <div id="alerts"></div>
-         <div class="cart-container">
-           <h2>Cart</h2>
-           <table>
-             <thead>
-               <tr>
-               <th><strong>Product</strong></th>
-               <th><strong>Price</strong></th>
-             </tr>
-             </thead>
-             <tbody id="carttable">
-             </tbody>
-           </table>
-           <hr>
-           <table id="carttotals">
-             <tr>
-               <td><strong>Items</strong></td>
-               <td><strong>Total</strong></td>
-             </tr>
-             <tr>
-               <td>x <span id="itemsquantity">0</span></td>
-              
-               <td>$<span id="total">0</span></td>
-             </tr></table>
-  
-             
-           <div class="cart-buttons">  
-             <button id="emptycart">Empty Cart</button>
-             <button id="checkout">Checkout</button>
-           </div>
-         </div>
-  </div>
 </main>
   <!-- Start your project here-->  
   
@@ -817,3 +700,4 @@
 
 </body>
 </html>
+

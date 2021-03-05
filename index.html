@@ -415,7 +415,7 @@ aria-hidden="true">
     
 <ul>
   <li class="nav-item">
-    <a href="#" class="nav-link cart"><i class="fas fa-shopping-cart"></i></a>
+    <a href="cart.html" class="nav-link cart"><i class="fas fa-shopping-cart"></i></a>
   </li>
 </ul>
     <!-- Search form -->
@@ -878,6 +878,40 @@ aria-hidden="true">
   <!-- Footer Links -->
 
 </footer>
+<div class="container hide1"> 
+    
+  <div id="alerts"></div>
+       <div class="cart-container">
+         <h2>Cart</h2>
+         <table>
+           <thead>
+             <tr>
+             <th><strong>Product</strong></th>
+             <th><strong>Price</strong></th>
+           </tr>
+           </thead>
+           <tbody id="carttable">
+           </tbody>
+         </table>
+         <hr>
+         <table id="carttotals">
+           <tr>
+             <td><strong>Items</strong></td>
+             <td><strong>Total</strong></td>
+           </tr>
+           <tr>
+             <td>x <span id="itemsquantity">0</span></td>
+            
+             <td>$<span id="total">0</span></td>
+           </tr></table>
+
+           
+         <div class="cart-buttons">  
+           <button id="emptycart">Empty Cart</button>
+           <button id="checkout">Checkout</button>
+         </div>
+       </div>
+</div>
 <!-- Footer -->
 </main>
   <!-- Start your project here-->  
