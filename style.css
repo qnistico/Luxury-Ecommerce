@@ -65,6 +65,10 @@ body {
   margin: 13% auto 0 auto;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
           box-shadow: #c5c5c562 0 12px 24px 0;
+  -webkit-animation-duration: 0.618s;
+          animation-duration: 0.618s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .herocontainer .heroflex .herocontent h1 {
