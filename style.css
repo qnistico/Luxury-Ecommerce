@@ -101,7 +101,8 @@ body {
 }
 
 .herobutton:hover,
-.herobutton:active {
+.herobutton:active,
+.herobutton:focus {
   background-color: transparent !important;
   color: black;
 }
@@ -489,6 +490,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.kitchenproducts .herobutton,
+.livingroomproducts .herobutton {
+  position: relative;
+  top: 0.5rem;
+}
+
 .fa-star,
 .fa-star-half-alt {
   color: #e0bc75;
@@ -769,9 +776,8 @@ body {
   width: 100px;
 }
 
-.navbar .cart {
-  position: relative;
-  top: 9px;
+.navbar .cartbutton {
+  background-color: transparent;
 }
 
 .hide1 {
@@ -1039,25 +1045,23 @@ table td:nth-last-child(1) {
   margin-right: 0.5rem;
 }
 
+/*
 @media screen and (max-width: 1300px) {
+
   .kitchenheroflex,
   .livingroomheroflex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-  }
-  .kitchenheroflex .kitchenherocontent,
-  .kitchenheroflex .livingroomherocontent,
-  .livingroomheroflex .kitchenherocontent,
-  .livingroomheroflex .livingroomherocontent {
-    width: 100%;
+    flex-flow: column nowrap;
+
+    .kitchenherocontent,
+    .livingroomherocontent {
+      width: 100%;
+    }
   }
   .navbar {
     max-height: unset;
   }
 }
-
+*/
 /*
 .side-nav {
     position: relative;
@@ -1079,4 +1083,21 @@ table td:nth-last-child(1) {
     }
     }
 */
+.show-cart li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=style.css.map */

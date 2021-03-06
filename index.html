@@ -413,11 +413,11 @@ aria-hidden="true">
     </ul>
     <!-- Links -->
     
-<ul>
-  <li class="nav-item">
-    <a href="cart.html" class="nav-link cart"><i class="fas fa-shopping-cart"></i></a>
-  </li>
-</ul>
+
+<button type="button" class="nav-link cartbutton" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>
+  (<span class="total-count"></span>)</button></div>
+
+    </div>
     <!-- Search form -->
 
 
@@ -526,16 +526,45 @@ aria-hidden="true">
   <div class="text-center">
     <a href="#" class="btn my-3 modalbutton" data-toggle="modal" data-target="#modalLRForm">Login / Sign Up</a>
   </div>
+  <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer">
+        <button class="clear-cart btn btn-danger">Clear Cart</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+    </div>
+    </div> 
 </nav>
 <!-- Navbar -->
 <main>
+  
+
+
+<!-- Modal -->
+
+
   <article class="herocontainer">
     <div class="heroflex">
-      <div class="herocontent animated zoomIn">
+      <div class="herocontent">
         <img src="img/logo1.svg" alt="" class="herologo">
         <h1>Luxury Decor</h1>
         <p>Premium furniture <span class="font2">&</span> decor to transform the beauty of your home</p>
         <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=1" class="herobutton">View Products</a>
+
         <!-- 
         <a href="https://qnistico.github.io/Luxury-Ecommerce/product-details.html?id=2" class="herobutton">View Products</a>
         -->
@@ -603,6 +632,9 @@ aria-hidden="true">
       </a>
     </div>
   </article>
+  <!-- Nav -->
+  
+
   <article class="featured">
     <div class="featuredflex">
       <img src="img/luxuryfeature.jpg" alt="">
@@ -878,40 +910,7 @@ aria-hidden="true">
   <!-- Footer Links -->
 
 </footer>
-<div class="container hide1"> 
-    
-  <div id="alerts"></div>
-       <div class="cart-container">
-         <h2>Cart</h2>
-         <table>
-           <thead>
-             <tr>
-             <th><strong>Product</strong></th>
-             <th><strong>Price</strong></th>
-           </tr>
-           </thead>
-           <tbody id="carttable">
-           </tbody>
-         </table>
-         <hr>
-         <table id="carttotals">
-           <tr>
-             <td><strong>Items</strong></td>
-             <td><strong>Total</strong></td>
-           </tr>
-           <tr>
-             <td>x <span id="itemsquantity">0</span></td>
-            
-             <td>$<span id="total">0</span></td>
-           </tr></table>
 
-           
-         <div class="cart-buttons">  
-           <button id="emptycart">Empty Cart</button>
-           <button id="checkout">Checkout</button>
-         </div>
-       </div>
-</div>
 <!-- Footer -->
 </main>
   <!-- Start your project here-->  
