@@ -778,6 +778,7 @@ body {
 
 .navbar .cartbutton {
   background-color: transparent;
+  border: 2px solid #424242;
 }
 
 .hide1 {
@@ -943,6 +944,24 @@ table td:nth-last-child(1) {
 
 .fa-shopping-cart {
   font-size: 1.75rem;
+}
+
+.clear-cart {
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 2px solid #424242;
+}
+
+.clear-cart:hover,
+.clear-cart:active {
+  background-color: #424242;
+  color: white;
+}
+
+.delete-item {
+  font-weight: 900;
 }
 
 @media screen and (max-width: 768px) {
