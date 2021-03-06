@@ -608,6 +608,7 @@ body {
 
   .fa-bars {
     font-size: 2rem;
+    color: black;
   }
 
   .logo {
@@ -856,6 +857,9 @@ border: 2px solid #424242;
     .contact {
       width: 100%;
     }
+  }
+  .navbar-nav {
+    background-color: #fff;
   }
 }
 

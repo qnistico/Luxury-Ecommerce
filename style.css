@@ -770,6 +770,7 @@ body {
 
 .navbar .fa-bars {
   font-size: 2rem;
+  color: black;
 }
 
 .navbar .logo {
@@ -1057,6 +1058,9 @@ table td:nth-last-child(1) {
   }
   .customerserviceflex .contact {
     width: 100%;
+  }
+  .navbar-nav {
+    background-color: #fff;
   }
 }
 
