@@ -303,14 +303,25 @@ body {
   min-height: 55vh;
 }
 
+.flowerpots {
+  background-image: url(img/flowerpot.jpg);
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 62vh;
+}
+
 .kitchenheroflex,
-.livingroomheroflex {
+.livingroomheroflex,
+.flowerpotflex {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
 
   .kitchenherocontent,
-  .livingroomherocontent {
+  .livingroomherocontent,
+  .flowerpotcontent {
     width: 38%;
     background-color: #f1e7dc;
     min-height: 62vh;
@@ -330,12 +341,14 @@ body {
 
 
 .kitchenproducts,
-.livingroomproducts {
+.livingroomproducts,
+.flowerpotproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 
   .kitchenproductsflex,
-  .livingroomproductsflex {
+  .livingroomproductsflex,
+  .flowerpotproductsflex {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -352,7 +365,8 @@ body {
     }
 
     .kitchenitem,
-    .livingroomitem {
+    .livingroomitem,
+    .flowerpotitem {
       width: 20%;
       margin: 20px 20px;
 
@@ -373,7 +387,7 @@ body {
   }
   .herobutton {
     position: relative;
-    top: 0.5rem;
+    top: 0.618rem;
   }
 }
 
@@ -625,34 +639,14 @@ body {
   display: none;
 }
 
-.container1 {
-  max-width: 800px; 
-  margin: 11rem auto; 
-  background:#FFF; 
-  padding:30px;
-  border-radius:5px;
-}
-.productcont {
-  display: flex; 
-}
-.product {
-  padding:1em; 
-  border:1px solid #E0E4CC; 
-  margin-right:1em; 
-  border-radius:5px;
-}
-.cart-container {
-  border:1px solid #E0E4CC;
-  border-radius:5px;
-  margin-top:1em;
-  padding:1em;
-}
+
+.show-cart {
 button, input[type="submit"] { 
     border:1px solid #333 ; 
     color:#fff; 
     background: #333 ; 
-    padding:0.6em 1em;
-    font-size:1em; 
+    padding:0.6em 1rem;
+    font-size:1rem; 
     line-height:1; 
     transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
@@ -660,47 +654,10 @@ button:hover, button:focus, button:active, input[type="submit"]:hover, input[typ
     color:#000;
     cursor: pointer;
 }
-table {
-  margin-bottom:1em;
-  border-collapse:collapse;
 }
-table td, table th {
-  text-align:left;
-  padding:0.25em 1em;
-  border-bottom:1px solid #E0E4CC;
-}
-#carttotals {
-  margin-right:0;
-  margin-left:auto;
-}
-.cart-buttons {
-  width:auto;
-  margin-right:0;
-  margin-left:auto;
-  display:flex;
-  justify-content:flex-end;
-  padding:1em 0;
-}
-#emptycart {
-  margin-right:1em;
-}
-table td:nth-last-child(1) {
-  text-align:right;
-}
-.message {
-  border-width: 1px 0px;
-  border-style:solid;
-  border-color:#A7DBD8;
-  color:#679996;
-  padding:0.5em 0;
-  margin:1em 0;
-}
-#emptycart:hover,
-#emptycart:active,
-#checkout:hover,
-#checkout:active {
-  background-color: transparent !important;
-}
+
+
+
 
 .modal-backdrop {
   z-index: 1;

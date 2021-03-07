@@ -362,8 +362,19 @@ body {
   min-height: 55vh;
 }
 
+.flowerpots {
+  background-image: url(img/flowerpot.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 62vh;
+}
+
 .kitchenheroflex,
-.livingroomheroflex {
+.livingroomheroflex,
+.flowerpotflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,8 +389,13 @@ body {
 
 .kitchenheroflex .kitchenherocontent,
 .kitchenheroflex .livingroomherocontent,
+.kitchenheroflex .flowerpotcontent,
 .livingroomheroflex .kitchenherocontent,
-.livingroomheroflex .livingroomherocontent {
+.livingroomheroflex .livingroomherocontent,
+.livingroomheroflex .flowerpotcontent,
+.flowerpotflex .kitchenherocontent,
+.flowerpotflex .livingroomherocontent,
+.flowerpotflex .flowerpotcontent {
   width: 38%;
   background-color: #f1e7dc;
   min-height: 62vh;
@@ -398,8 +414,13 @@ body {
 
 .kitchenheroflex .kitchenherocontent h1,
 .kitchenheroflex .livingroomherocontent h1,
+.kitchenheroflex .flowerpotcontent h1,
 .livingroomheroflex .kitchenherocontent h1,
-.livingroomheroflex .livingroomherocontent h1 {
+.livingroomheroflex .livingroomherocontent h1,
+.livingroomheroflex .flowerpotcontent h1,
+.flowerpotflex .kitchenherocontent h1,
+.flowerpotflex .livingroomherocontent h1,
+.flowerpotflex .flowerpotcontent h1 {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
@@ -407,15 +428,21 @@ body {
 }
 
 .kitchenproducts,
-.livingroomproducts {
+.livingroomproducts,
+.flowerpotproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 }
 
 .kitchenproducts .kitchenproductsflex,
 .kitchenproducts .livingroomproductsflex,
+.kitchenproducts .flowerpotproductsflex,
 .livingroomproducts .kitchenproductsflex,
-.livingroomproducts .livingroomproductsflex {
+.livingroomproducts .livingroomproductsflex,
+.livingroomproducts .flowerpotproductsflex,
+.flowerpotproducts .kitchenproductsflex,
+.flowerpotproducts .livingroomproductsflex,
+.flowerpotproducts .flowerpotproductsflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,8 +460,13 @@ body {
 
 .kitchenproducts .kitchenproductsflex img,
 .kitchenproducts .livingroomproductsflex img,
+.kitchenproducts .flowerpotproductsflex img,
 .livingroomproducts .kitchenproductsflex img,
-.livingroomproducts .livingroomproductsflex img {
+.livingroomproducts .livingroomproductsflex img,
+.livingroomproducts .flowerpotproductsflex img,
+.flowerpotproducts .kitchenproductsflex img,
+.flowerpotproducts .livingroomproductsflex img,
+.flowerpotproducts .flowerpotproductsflex img {
   width: 100%;
   margin-bottom: 1rem;
   background-color: #e7e7e7;
@@ -445,55 +477,132 @@ body {
 
 .kitchenproducts .kitchenproductsflex .kitchenitem,
 .kitchenproducts .kitchenproductsflex .livingroomitem,
+.kitchenproducts .kitchenproductsflex .flowerpotitem,
 .kitchenproducts .livingroomproductsflex .kitchenitem,
 .kitchenproducts .livingroomproductsflex .livingroomitem,
+.kitchenproducts .livingroomproductsflex .flowerpotitem,
+.kitchenproducts .flowerpotproductsflex .kitchenitem,
+.kitchenproducts .flowerpotproductsflex .livingroomitem,
+.kitchenproducts .flowerpotproductsflex .flowerpotitem,
 .livingroomproducts .kitchenproductsflex .kitchenitem,
 .livingroomproducts .kitchenproductsflex .livingroomitem,
+.livingroomproducts .kitchenproductsflex .flowerpotitem,
 .livingroomproducts .livingroomproductsflex .kitchenitem,
-.livingroomproducts .livingroomproductsflex .livingroomitem {
+.livingroomproducts .livingroomproductsflex .livingroomitem,
+.livingroomproducts .livingroomproductsflex .flowerpotitem,
+.livingroomproducts .flowerpotproductsflex .kitchenitem,
+.livingroomproducts .flowerpotproductsflex .livingroomitem,
+.livingroomproducts .flowerpotproductsflex .flowerpotitem,
+.flowerpotproducts .kitchenproductsflex .kitchenitem,
+.flowerpotproducts .kitchenproductsflex .livingroomitem,
+.flowerpotproducts .kitchenproductsflex .flowerpotitem,
+.flowerpotproducts .livingroomproductsflex .kitchenitem,
+.flowerpotproducts .livingroomproductsflex .livingroomitem,
+.flowerpotproducts .livingroomproductsflex .flowerpotitem,
+.flowerpotproducts .flowerpotproductsflex .kitchenitem,
+.flowerpotproducts .flowerpotproductsflex .livingroomitem,
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem {
   width: 20%;
   margin: 20px 20px;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem p:first-of-type,
 .kitchenproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.kitchenproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
 .kitchenproducts .livingroomproductsflex .kitchenitem p:first-of-type,
 .kitchenproducts .livingroomproductsflex .livingroomitem p:first-of-type,
+.kitchenproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.kitchenproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
+.kitchenproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
+.kitchenproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
 .livingroomproducts .kitchenproductsflex .kitchenitem p:first-of-type,
 .livingroomproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
 .livingroomproducts .livingroomproductsflex .kitchenitem p:first-of-type,
-.livingroomproducts .livingroomproductsflex .livingroomitem p:first-of-type {
+.livingroomproducts .livingroomproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.livingroomproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
+.livingroomproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .kitchenproductsflex .kitchenitem p:first-of-type,
+.flowerpotproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.flowerpotproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .livingroomproductsflex .kitchenitem p:first-of-type,
+.flowerpotproducts .livingroomproductsflex .livingroomitem p:first-of-type,
+.flowerpotproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
+.flowerpotproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem p:first-of-type {
   font-size: 1rem;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem p,
 .kitchenproducts .kitchenproductsflex .livingroomitem p,
+.kitchenproducts .kitchenproductsflex .flowerpotitem p,
 .kitchenproducts .livingroomproductsflex .kitchenitem p,
 .kitchenproducts .livingroomproductsflex .livingroomitem p,
+.kitchenproducts .livingroomproductsflex .flowerpotitem p,
+.kitchenproducts .flowerpotproductsflex .kitchenitem p,
+.kitchenproducts .flowerpotproductsflex .livingroomitem p,
+.kitchenproducts .flowerpotproductsflex .flowerpotitem p,
 .livingroomproducts .kitchenproductsflex .kitchenitem p,
 .livingroomproducts .kitchenproductsflex .livingroomitem p,
+.livingroomproducts .kitchenproductsflex .flowerpotitem p,
 .livingroomproducts .livingroomproductsflex .kitchenitem p,
-.livingroomproducts .livingroomproductsflex .livingroomitem p {
+.livingroomproducts .livingroomproductsflex .livingroomitem p,
+.livingroomproducts .livingroomproductsflex .flowerpotitem p,
+.livingroomproducts .flowerpotproductsflex .kitchenitem p,
+.livingroomproducts .flowerpotproductsflex .livingroomitem p,
+.livingroomproducts .flowerpotproductsflex .flowerpotitem p,
+.flowerpotproducts .kitchenproductsflex .kitchenitem p,
+.flowerpotproducts .kitchenproductsflex .livingroomitem p,
+.flowerpotproducts .kitchenproductsflex .flowerpotitem p,
+.flowerpotproducts .livingroomproductsflex .kitchenitem p,
+.flowerpotproducts .livingroomproductsflex .livingroomitem p,
+.flowerpotproducts .livingroomproductsflex .flowerpotitem p,
+.flowerpotproducts .flowerpotproductsflex .kitchenitem p,
+.flowerpotproducts .flowerpotproductsflex .livingroomitem p,
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem p {
   margin-bottom: 0.25rem;
   font-weight: 500;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem .itemprice,
 .kitchenproducts .kitchenproductsflex .livingroomitem .itemprice,
+.kitchenproducts .kitchenproductsflex .flowerpotitem .itemprice,
 .kitchenproducts .livingroomproductsflex .kitchenitem .itemprice,
 .kitchenproducts .livingroomproductsflex .livingroomitem .itemprice,
+.kitchenproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.kitchenproducts .flowerpotproductsflex .kitchenitem .itemprice,
+.kitchenproducts .flowerpotproductsflex .livingroomitem .itemprice,
+.kitchenproducts .flowerpotproductsflex .flowerpotitem .itemprice,
 .livingroomproducts .kitchenproductsflex .kitchenitem .itemprice,
 .livingroomproducts .kitchenproductsflex .livingroomitem .itemprice,
+.livingroomproducts .kitchenproductsflex .flowerpotitem .itemprice,
 .livingroomproducts .livingroomproductsflex .kitchenitem .itemprice,
-.livingroomproducts .livingroomproductsflex .livingroomitem .itemprice {
+.livingroomproducts .livingroomproductsflex .livingroomitem .itemprice,
+.livingroomproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.livingroomproducts .flowerpotproductsflex .kitchenitem .itemprice,
+.livingroomproducts .flowerpotproductsflex .livingroomitem .itemprice,
+.livingroomproducts .flowerpotproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .kitchenproductsflex .kitchenitem .itemprice,
+.flowerpotproducts .kitchenproductsflex .livingroomitem .itemprice,
+.flowerpotproducts .kitchenproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .livingroomproductsflex .kitchenitem .itemprice,
+.flowerpotproducts .livingroomproductsflex .livingroomitem .itemprice,
+.flowerpotproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .flowerpotproductsflex .kitchenitem .itemprice,
+.flowerpotproducts .flowerpotproductsflex .livingroomitem .itemprice,
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem .itemprice {
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
 
 .kitchenproducts .herobutton,
-.livingroomproducts .herobutton {
+.livingroomproducts .herobutton,
+.flowerpotproducts .herobutton {
   position: relative;
-  top: 0.5rem;
+  top: 0.618rem;
 }
 
 .fa-star,
@@ -786,101 +895,20 @@ body {
   display: none;
 }
 
-.container1 {
-  max-width: 800px;
-  margin: 11rem auto;
-  background: #FFF;
-  padding: 30px;
-  border-radius: 5px;
-}
-
-.productcont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.product {
-  padding: 1em;
-  border: 1px solid #E0E4CC;
-  margin-right: 1em;
-  border-radius: 5px;
-}
-
-.cart-container {
-  border: 1px solid #E0E4CC;
-  border-radius: 5px;
-  margin-top: 1em;
-  padding: 1em;
-}
-
-button, input[type="submit"] {
+.show-cart button, .show-cart input[type="submit"] {
   border: 1px solid #333;
   color: #fff;
   background: #333;
-  padding: 0.6em 1em;
-  font-size: 1em;
+  padding: 0.6em 1rem;
+  font-size: 1rem;
   line-height: 1;
   -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+.show-cart button:hover, .show-cart button:focus, .show-cart button:active, .show-cart input[type="submit"]:hover, .show-cart input[type="submit"]:focus, .show-cart input[type="submit"]:active {
   color: #000;
   cursor: pointer;
-}
-
-table {
-  margin-bottom: 1em;
-  border-collapse: collapse;
-}
-
-table td, table th {
-  text-align: left;
-  padding: 0.25em 1em;
-  border-bottom: 1px solid #E0E4CC;
-}
-
-#carttotals {
-  margin-right: 0;
-  margin-left: auto;
-}
-
-.cart-buttons {
-  width: auto;
-  margin-right: 0;
-  margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding: 1em 0;
-}
-
-#emptycart {
-  margin-right: 1em;
-}
-
-table td:nth-last-child(1) {
-  text-align: right;
-}
-
-.message {
-  border-width: 1px 0px;
-  border-style: solid;
-  border-color: #A7DBD8;
-  color: #679996;
-  padding: 0.5em 0;
-  margin: 1em 0;
-}
-
-#emptycart:hover,
-#emptycart:active,
-#checkout:hover,
-#checkout:active {
-  background-color: transparent !important;
 }
 
 .modal-backdrop {
