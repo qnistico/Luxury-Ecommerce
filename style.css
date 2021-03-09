@@ -352,6 +352,16 @@ body {
   min-height: 62vh;
 }
 
+.bedroomhero {
+  background-image: url(img/bedroom.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 62vh;
+}
+
 .kitchenhero {
   background-image: url(img/kitchen.jpg);
   -o-object-fit: cover;
@@ -359,7 +369,7 @@ body {
   width: 100%;
   background-size: cover;
   background-position: 18rem 50%;
-  min-height: 55vh;
+  min-height: 62vh;
 }
 
 .flowerpots {
@@ -374,7 +384,8 @@ body {
 
 .kitchenheroflex,
 .livingroomheroflex,
-.flowerpotflex {
+.flowerpotflex,
+.bedroomheroflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,12 +401,19 @@ body {
 .kitchenheroflex .kitchenherocontent,
 .kitchenheroflex .livingroomherocontent,
 .kitchenheroflex .flowerpotcontent,
+.kitchenheroflex .bedroomherocontent,
 .livingroomheroflex .kitchenherocontent,
 .livingroomheroflex .livingroomherocontent,
 .livingroomheroflex .flowerpotcontent,
+.livingroomheroflex .bedroomherocontent,
 .flowerpotflex .kitchenherocontent,
 .flowerpotflex .livingroomherocontent,
-.flowerpotflex .flowerpotcontent {
+.flowerpotflex .flowerpotcontent,
+.flowerpotflex .bedroomherocontent,
+.bedroomheroflex .kitchenherocontent,
+.bedroomheroflex .livingroomherocontent,
+.bedroomheroflex .flowerpotcontent,
+.bedroomheroflex .bedroomherocontent {
   width: 38%;
   background-color: #f1e7dc;
   min-height: 62vh;
@@ -415,12 +433,19 @@ body {
 .kitchenheroflex .kitchenherocontent h1,
 .kitchenheroflex .livingroomherocontent h1,
 .kitchenheroflex .flowerpotcontent h1,
+.kitchenheroflex .bedroomherocontent h1,
 .livingroomheroflex .kitchenherocontent h1,
 .livingroomheroflex .livingroomherocontent h1,
 .livingroomheroflex .flowerpotcontent h1,
+.livingroomheroflex .bedroomherocontent h1,
 .flowerpotflex .kitchenherocontent h1,
 .flowerpotflex .livingroomherocontent h1,
-.flowerpotflex .flowerpotcontent h1 {
+.flowerpotflex .flowerpotcontent h1,
+.flowerpotflex .bedroomherocontent h1,
+.bedroomheroflex .kitchenherocontent h1,
+.bedroomheroflex .livingroomherocontent h1,
+.bedroomheroflex .flowerpotcontent h1,
+.bedroomheroflex .bedroomherocontent h1 {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
@@ -429,7 +454,8 @@ body {
 
 .kitchenproducts,
 .livingroomproducts,
-.flowerpotproducts {
+.flowerpotproducts,
+.bedroomproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 }
@@ -437,12 +463,19 @@ body {
 .kitchenproducts .kitchenproductsflex,
 .kitchenproducts .livingroomproductsflex,
 .kitchenproducts .flowerpotproductsflex,
+.kitchenproducts .bedroomproductsflex,
 .livingroomproducts .kitchenproductsflex,
 .livingroomproducts .livingroomproductsflex,
 .livingroomproducts .flowerpotproductsflex,
+.livingroomproducts .bedroomproductsflex,
 .flowerpotproducts .kitchenproductsflex,
 .flowerpotproducts .livingroomproductsflex,
-.flowerpotproducts .flowerpotproductsflex {
+.flowerpotproducts .flowerpotproductsflex,
+.flowerpotproducts .bedroomproductsflex,
+.bedroomproducts .kitchenproductsflex,
+.bedroomproducts .livingroomproductsflex,
+.bedroomproducts .flowerpotproductsflex,
+.bedroomproducts .bedroomproductsflex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,12 +494,19 @@ body {
 .kitchenproducts .kitchenproductsflex img,
 .kitchenproducts .livingroomproductsflex img,
 .kitchenproducts .flowerpotproductsflex img,
+.kitchenproducts .bedroomproductsflex img,
 .livingroomproducts .kitchenproductsflex img,
 .livingroomproducts .livingroomproductsflex img,
 .livingroomproducts .flowerpotproductsflex img,
+.livingroomproducts .bedroomproductsflex img,
 .flowerpotproducts .kitchenproductsflex img,
 .flowerpotproducts .livingroomproductsflex img,
-.flowerpotproducts .flowerpotproductsflex img {
+.flowerpotproducts .flowerpotproductsflex img,
+.flowerpotproducts .bedroomproductsflex img,
+.bedroomproducts .kitchenproductsflex img,
+.bedroomproducts .livingroomproductsflex img,
+.bedroomproducts .flowerpotproductsflex img,
+.bedroomproducts .bedroomproductsflex img {
   width: 100%;
   margin-bottom: 1rem;
   background-color: #e7e7e7;
@@ -478,30 +518,67 @@ body {
 .kitchenproducts .kitchenproductsflex .kitchenitem,
 .kitchenproducts .kitchenproductsflex .livingroomitem,
 .kitchenproducts .kitchenproductsflex .flowerpotitem,
+.kitchenproducts .kitchenproductsflex .bedroomitem,
 .kitchenproducts .livingroomproductsflex .kitchenitem,
 .kitchenproducts .livingroomproductsflex .livingroomitem,
 .kitchenproducts .livingroomproductsflex .flowerpotitem,
+.kitchenproducts .livingroomproductsflex .bedroomitem,
 .kitchenproducts .flowerpotproductsflex .kitchenitem,
 .kitchenproducts .flowerpotproductsflex .livingroomitem,
 .kitchenproducts .flowerpotproductsflex .flowerpotitem,
+.kitchenproducts .flowerpotproductsflex .bedroomitem,
+.kitchenproducts .bedroomproductsflex .kitchenitem,
+.kitchenproducts .bedroomproductsflex .livingroomitem,
+.kitchenproducts .bedroomproductsflex .flowerpotitem,
+.kitchenproducts .bedroomproductsflex .bedroomitem,
 .livingroomproducts .kitchenproductsflex .kitchenitem,
 .livingroomproducts .kitchenproductsflex .livingroomitem,
 .livingroomproducts .kitchenproductsflex .flowerpotitem,
+.livingroomproducts .kitchenproductsflex .bedroomitem,
 .livingroomproducts .livingroomproductsflex .kitchenitem,
 .livingroomproducts .livingroomproductsflex .livingroomitem,
 .livingroomproducts .livingroomproductsflex .flowerpotitem,
+.livingroomproducts .livingroomproductsflex .bedroomitem,
 .livingroomproducts .flowerpotproductsflex .kitchenitem,
 .livingroomproducts .flowerpotproductsflex .livingroomitem,
 .livingroomproducts .flowerpotproductsflex .flowerpotitem,
+.livingroomproducts .flowerpotproductsflex .bedroomitem,
+.livingroomproducts .bedroomproductsflex .kitchenitem,
+.livingroomproducts .bedroomproductsflex .livingroomitem,
+.livingroomproducts .bedroomproductsflex .flowerpotitem,
+.livingroomproducts .bedroomproductsflex .bedroomitem,
 .flowerpotproducts .kitchenproductsflex .kitchenitem,
 .flowerpotproducts .kitchenproductsflex .livingroomitem,
 .flowerpotproducts .kitchenproductsflex .flowerpotitem,
+.flowerpotproducts .kitchenproductsflex .bedroomitem,
 .flowerpotproducts .livingroomproductsflex .kitchenitem,
 .flowerpotproducts .livingroomproductsflex .livingroomitem,
 .flowerpotproducts .livingroomproductsflex .flowerpotitem,
+.flowerpotproducts .livingroomproductsflex .bedroomitem,
 .flowerpotproducts .flowerpotproductsflex .kitchenitem,
 .flowerpotproducts .flowerpotproductsflex .livingroomitem,
-.flowerpotproducts .flowerpotproductsflex .flowerpotitem {
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem,
+.flowerpotproducts .flowerpotproductsflex .bedroomitem,
+.flowerpotproducts .bedroomproductsflex .kitchenitem,
+.flowerpotproducts .bedroomproductsflex .livingroomitem,
+.flowerpotproducts .bedroomproductsflex .flowerpotitem,
+.flowerpotproducts .bedroomproductsflex .bedroomitem,
+.bedroomproducts .kitchenproductsflex .kitchenitem,
+.bedroomproducts .kitchenproductsflex .livingroomitem,
+.bedroomproducts .kitchenproductsflex .flowerpotitem,
+.bedroomproducts .kitchenproductsflex .bedroomitem,
+.bedroomproducts .livingroomproductsflex .kitchenitem,
+.bedroomproducts .livingroomproductsflex .livingroomitem,
+.bedroomproducts .livingroomproductsflex .flowerpotitem,
+.bedroomproducts .livingroomproductsflex .bedroomitem,
+.bedroomproducts .flowerpotproductsflex .kitchenitem,
+.bedroomproducts .flowerpotproductsflex .livingroomitem,
+.bedroomproducts .flowerpotproductsflex .flowerpotitem,
+.bedroomproducts .flowerpotproductsflex .bedroomitem,
+.bedroomproducts .bedroomproductsflex .kitchenitem,
+.bedroomproducts .bedroomproductsflex .livingroomitem,
+.bedroomproducts .bedroomproductsflex .flowerpotitem,
+.bedroomproducts .bedroomproductsflex .bedroomitem {
   width: 20%;
   margin: 20px 20px;
 }
@@ -509,60 +586,134 @@ body {
 .kitchenproducts .kitchenproductsflex .kitchenitem p:first-of-type,
 .kitchenproducts .kitchenproductsflex .livingroomitem p:first-of-type,
 .kitchenproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
+.kitchenproducts .kitchenproductsflex .bedroomitem p:first-of-type,
 .kitchenproducts .livingroomproductsflex .kitchenitem p:first-of-type,
 .kitchenproducts .livingroomproductsflex .livingroomitem p:first-of-type,
 .kitchenproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.kitchenproducts .livingroomproductsflex .bedroomitem p:first-of-type,
 .kitchenproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
 .kitchenproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
 .kitchenproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
+.kitchenproducts .flowerpotproductsflex .bedroomitem p:first-of-type,
+.kitchenproducts .bedroomproductsflex .kitchenitem p:first-of-type,
+.kitchenproducts .bedroomproductsflex .livingroomitem p:first-of-type,
+.kitchenproducts .bedroomproductsflex .flowerpotitem p:first-of-type,
+.kitchenproducts .bedroomproductsflex .bedroomitem p:first-of-type,
 .livingroomproducts .kitchenproductsflex .kitchenitem p:first-of-type,
 .livingroomproducts .kitchenproductsflex .livingroomitem p:first-of-type,
 .livingroomproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
+.livingroomproducts .kitchenproductsflex .bedroomitem p:first-of-type,
 .livingroomproducts .livingroomproductsflex .kitchenitem p:first-of-type,
 .livingroomproducts .livingroomproductsflex .livingroomitem p:first-of-type,
 .livingroomproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.livingroomproducts .livingroomproductsflex .bedroomitem p:first-of-type,
 .livingroomproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
 .livingroomproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
 .livingroomproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
+.livingroomproducts .flowerpotproductsflex .bedroomitem p:first-of-type,
+.livingroomproducts .bedroomproductsflex .kitchenitem p:first-of-type,
+.livingroomproducts .bedroomproductsflex .livingroomitem p:first-of-type,
+.livingroomproducts .bedroomproductsflex .flowerpotitem p:first-of-type,
+.livingroomproducts .bedroomproductsflex .bedroomitem p:first-of-type,
 .flowerpotproducts .kitchenproductsflex .kitchenitem p:first-of-type,
 .flowerpotproducts .kitchenproductsflex .livingroomitem p:first-of-type,
 .flowerpotproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .kitchenproductsflex .bedroomitem p:first-of-type,
 .flowerpotproducts .livingroomproductsflex .kitchenitem p:first-of-type,
 .flowerpotproducts .livingroomproductsflex .livingroomitem p:first-of-type,
 .flowerpotproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .livingroomproductsflex .bedroomitem p:first-of-type,
 .flowerpotproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
 .flowerpotproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
-.flowerpotproducts .flowerpotproductsflex .flowerpotitem p:first-of-type {
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .flowerpotproductsflex .bedroomitem p:first-of-type,
+.flowerpotproducts .bedroomproductsflex .kitchenitem p:first-of-type,
+.flowerpotproducts .bedroomproductsflex .livingroomitem p:first-of-type,
+.flowerpotproducts .bedroomproductsflex .flowerpotitem p:first-of-type,
+.flowerpotproducts .bedroomproductsflex .bedroomitem p:first-of-type,
+.bedroomproducts .kitchenproductsflex .kitchenitem p:first-of-type,
+.bedroomproducts .kitchenproductsflex .livingroomitem p:first-of-type,
+.bedroomproducts .kitchenproductsflex .flowerpotitem p:first-of-type,
+.bedroomproducts .kitchenproductsflex .bedroomitem p:first-of-type,
+.bedroomproducts .livingroomproductsflex .kitchenitem p:first-of-type,
+.bedroomproducts .livingroomproductsflex .livingroomitem p:first-of-type,
+.bedroomproducts .livingroomproductsflex .flowerpotitem p:first-of-type,
+.bedroomproducts .livingroomproductsflex .bedroomitem p:first-of-type,
+.bedroomproducts .flowerpotproductsflex .kitchenitem p:first-of-type,
+.bedroomproducts .flowerpotproductsflex .livingroomitem p:first-of-type,
+.bedroomproducts .flowerpotproductsflex .flowerpotitem p:first-of-type,
+.bedroomproducts .flowerpotproductsflex .bedroomitem p:first-of-type,
+.bedroomproducts .bedroomproductsflex .kitchenitem p:first-of-type,
+.bedroomproducts .bedroomproductsflex .livingroomitem p:first-of-type,
+.bedroomproducts .bedroomproductsflex .flowerpotitem p:first-of-type,
+.bedroomproducts .bedroomproductsflex .bedroomitem p:first-of-type {
   font-size: 1rem;
 }
 
 .kitchenproducts .kitchenproductsflex .kitchenitem p,
 .kitchenproducts .kitchenproductsflex .livingroomitem p,
 .kitchenproducts .kitchenproductsflex .flowerpotitem p,
+.kitchenproducts .kitchenproductsflex .bedroomitem p,
 .kitchenproducts .livingroomproductsflex .kitchenitem p,
 .kitchenproducts .livingroomproductsflex .livingroomitem p,
 .kitchenproducts .livingroomproductsflex .flowerpotitem p,
+.kitchenproducts .livingroomproductsflex .bedroomitem p,
 .kitchenproducts .flowerpotproductsflex .kitchenitem p,
 .kitchenproducts .flowerpotproductsflex .livingroomitem p,
 .kitchenproducts .flowerpotproductsflex .flowerpotitem p,
+.kitchenproducts .flowerpotproductsflex .bedroomitem p,
+.kitchenproducts .bedroomproductsflex .kitchenitem p,
+.kitchenproducts .bedroomproductsflex .livingroomitem p,
+.kitchenproducts .bedroomproductsflex .flowerpotitem p,
+.kitchenproducts .bedroomproductsflex .bedroomitem p,
 .livingroomproducts .kitchenproductsflex .kitchenitem p,
 .livingroomproducts .kitchenproductsflex .livingroomitem p,
 .livingroomproducts .kitchenproductsflex .flowerpotitem p,
+.livingroomproducts .kitchenproductsflex .bedroomitem p,
 .livingroomproducts .livingroomproductsflex .kitchenitem p,
 .livingroomproducts .livingroomproductsflex .livingroomitem p,
 .livingroomproducts .livingroomproductsflex .flowerpotitem p,
+.livingroomproducts .livingroomproductsflex .bedroomitem p,
 .livingroomproducts .flowerpotproductsflex .kitchenitem p,
 .livingroomproducts .flowerpotproductsflex .livingroomitem p,
 .livingroomproducts .flowerpotproductsflex .flowerpotitem p,
+.livingroomproducts .flowerpotproductsflex .bedroomitem p,
+.livingroomproducts .bedroomproductsflex .kitchenitem p,
+.livingroomproducts .bedroomproductsflex .livingroomitem p,
+.livingroomproducts .bedroomproductsflex .flowerpotitem p,
+.livingroomproducts .bedroomproductsflex .bedroomitem p,
 .flowerpotproducts .kitchenproductsflex .kitchenitem p,
 .flowerpotproducts .kitchenproductsflex .livingroomitem p,
 .flowerpotproducts .kitchenproductsflex .flowerpotitem p,
+.flowerpotproducts .kitchenproductsflex .bedroomitem p,
 .flowerpotproducts .livingroomproductsflex .kitchenitem p,
 .flowerpotproducts .livingroomproductsflex .livingroomitem p,
 .flowerpotproducts .livingroomproductsflex .flowerpotitem p,
+.flowerpotproducts .livingroomproductsflex .bedroomitem p,
 .flowerpotproducts .flowerpotproductsflex .kitchenitem p,
 .flowerpotproducts .flowerpotproductsflex .livingroomitem p,
-.flowerpotproducts .flowerpotproductsflex .flowerpotitem p {
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem p,
+.flowerpotproducts .flowerpotproductsflex .bedroomitem p,
+.flowerpotproducts .bedroomproductsflex .kitchenitem p,
+.flowerpotproducts .bedroomproductsflex .livingroomitem p,
+.flowerpotproducts .bedroomproductsflex .flowerpotitem p,
+.flowerpotproducts .bedroomproductsflex .bedroomitem p,
+.bedroomproducts .kitchenproductsflex .kitchenitem p,
+.bedroomproducts .kitchenproductsflex .livingroomitem p,
+.bedroomproducts .kitchenproductsflex .flowerpotitem p,
+.bedroomproducts .kitchenproductsflex .bedroomitem p,
+.bedroomproducts .livingroomproductsflex .kitchenitem p,
+.bedroomproducts .livingroomproductsflex .livingroomitem p,
+.bedroomproducts .livingroomproductsflex .flowerpotitem p,
+.bedroomproducts .livingroomproductsflex .bedroomitem p,
+.bedroomproducts .flowerpotproductsflex .kitchenitem p,
+.bedroomproducts .flowerpotproductsflex .livingroomitem p,
+.bedroomproducts .flowerpotproductsflex .flowerpotitem p,
+.bedroomproducts .flowerpotproductsflex .bedroomitem p,
+.bedroomproducts .bedroomproductsflex .kitchenitem p,
+.bedroomproducts .bedroomproductsflex .livingroomitem p,
+.bedroomproducts .bedroomproductsflex .flowerpotitem p,
+.bedroomproducts .bedroomproductsflex .bedroomitem p {
   margin-bottom: 0.25rem;
   font-weight: 500;
 }
@@ -570,37 +721,75 @@ body {
 .kitchenproducts .kitchenproductsflex .kitchenitem .itemprice,
 .kitchenproducts .kitchenproductsflex .livingroomitem .itemprice,
 .kitchenproducts .kitchenproductsflex .flowerpotitem .itemprice,
+.kitchenproducts .kitchenproductsflex .bedroomitem .itemprice,
 .kitchenproducts .livingroomproductsflex .kitchenitem .itemprice,
 .kitchenproducts .livingroomproductsflex .livingroomitem .itemprice,
 .kitchenproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.kitchenproducts .livingroomproductsflex .bedroomitem .itemprice,
 .kitchenproducts .flowerpotproductsflex .kitchenitem .itemprice,
 .kitchenproducts .flowerpotproductsflex .livingroomitem .itemprice,
 .kitchenproducts .flowerpotproductsflex .flowerpotitem .itemprice,
+.kitchenproducts .flowerpotproductsflex .bedroomitem .itemprice,
+.kitchenproducts .bedroomproductsflex .kitchenitem .itemprice,
+.kitchenproducts .bedroomproductsflex .livingroomitem .itemprice,
+.kitchenproducts .bedroomproductsflex .flowerpotitem .itemprice,
+.kitchenproducts .bedroomproductsflex .bedroomitem .itemprice,
 .livingroomproducts .kitchenproductsflex .kitchenitem .itemprice,
 .livingroomproducts .kitchenproductsflex .livingroomitem .itemprice,
 .livingroomproducts .kitchenproductsflex .flowerpotitem .itemprice,
+.livingroomproducts .kitchenproductsflex .bedroomitem .itemprice,
 .livingroomproducts .livingroomproductsflex .kitchenitem .itemprice,
 .livingroomproducts .livingroomproductsflex .livingroomitem .itemprice,
 .livingroomproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.livingroomproducts .livingroomproductsflex .bedroomitem .itemprice,
 .livingroomproducts .flowerpotproductsflex .kitchenitem .itemprice,
 .livingroomproducts .flowerpotproductsflex .livingroomitem .itemprice,
 .livingroomproducts .flowerpotproductsflex .flowerpotitem .itemprice,
+.livingroomproducts .flowerpotproductsflex .bedroomitem .itemprice,
+.livingroomproducts .bedroomproductsflex .kitchenitem .itemprice,
+.livingroomproducts .bedroomproductsflex .livingroomitem .itemprice,
+.livingroomproducts .bedroomproductsflex .flowerpotitem .itemprice,
+.livingroomproducts .bedroomproductsflex .bedroomitem .itemprice,
 .flowerpotproducts .kitchenproductsflex .kitchenitem .itemprice,
 .flowerpotproducts .kitchenproductsflex .livingroomitem .itemprice,
 .flowerpotproducts .kitchenproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .kitchenproductsflex .bedroomitem .itemprice,
 .flowerpotproducts .livingroomproductsflex .kitchenitem .itemprice,
 .flowerpotproducts .livingroomproductsflex .livingroomitem .itemprice,
 .flowerpotproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .livingroomproductsflex .bedroomitem .itemprice,
 .flowerpotproducts .flowerpotproductsflex .kitchenitem .itemprice,
 .flowerpotproducts .flowerpotproductsflex .livingroomitem .itemprice,
-.flowerpotproducts .flowerpotproductsflex .flowerpotitem .itemprice {
+.flowerpotproducts .flowerpotproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .flowerpotproductsflex .bedroomitem .itemprice,
+.flowerpotproducts .bedroomproductsflex .kitchenitem .itemprice,
+.flowerpotproducts .bedroomproductsflex .livingroomitem .itemprice,
+.flowerpotproducts .bedroomproductsflex .flowerpotitem .itemprice,
+.flowerpotproducts .bedroomproductsflex .bedroomitem .itemprice,
+.bedroomproducts .kitchenproductsflex .kitchenitem .itemprice,
+.bedroomproducts .kitchenproductsflex .livingroomitem .itemprice,
+.bedroomproducts .kitchenproductsflex .flowerpotitem .itemprice,
+.bedroomproducts .kitchenproductsflex .bedroomitem .itemprice,
+.bedroomproducts .livingroomproductsflex .kitchenitem .itemprice,
+.bedroomproducts .livingroomproductsflex .livingroomitem .itemprice,
+.bedroomproducts .livingroomproductsflex .flowerpotitem .itemprice,
+.bedroomproducts .livingroomproductsflex .bedroomitem .itemprice,
+.bedroomproducts .flowerpotproductsflex .kitchenitem .itemprice,
+.bedroomproducts .flowerpotproductsflex .livingroomitem .itemprice,
+.bedroomproducts .flowerpotproductsflex .flowerpotitem .itemprice,
+.bedroomproducts .flowerpotproductsflex .bedroomitem .itemprice,
+.bedroomproducts .bedroomproductsflex .kitchenitem .itemprice,
+.bedroomproducts .bedroomproductsflex .livingroomitem .itemprice,
+.bedroomproducts .bedroomproductsflex .flowerpotitem .itemprice,
+.bedroomproducts .bedroomproductsflex .bedroomitem .itemprice {
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
 
 .kitchenproducts .herobutton,
 .livingroomproducts .herobutton,
-.flowerpotproducts .herobutton {
+.flowerpotproducts .herobutton,
+.bedroomproducts .herobutton {
   position: relative;
   top: 0.618rem;
 }
@@ -891,7 +1080,7 @@ body {
   border: 2px solid #424242;
 }
 
-.hide1 {
+.navbar .mobileshow {
   display: none;
 }
 
@@ -1088,6 +1277,20 @@ body {
     width: 100%;
   }
   .navbar-nav {
+    background-color: #fff;
+  }
+  .mobileshow {
+    display: unset !important;
+  }
+  .mobileshow a {
+    background-color: #424242 !important;
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+  }
+  .mobilehide {
+    display: none;
+  }
+  .nav-item {
     background-color: #fff;
   }
 }

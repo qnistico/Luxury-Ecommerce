@@ -294,13 +294,22 @@ body {
   min-height: 62vh;
 }
 
+.bedroomhero {
+  background-image: url(img/bedroom.jpg);
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 62vh;
+}
+
 .kitchenhero {
   background-image: url(img/kitchen.jpg);
   object-fit: cover;
   width: 100%;
   background-size: cover;
   background-position: 18rem 50%;
-  min-height: 55vh;
+  min-height: 62vh;
 }
 
 .flowerpots {
@@ -314,14 +323,16 @@ body {
 
 .kitchenheroflex,
 .livingroomheroflex,
-.flowerpotflex {
+.flowerpotflex,
+.bedroomheroflex {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
 
   .kitchenherocontent,
   .livingroomherocontent,
-  .flowerpotcontent {
+  .flowerpotcontent,
+  .bedroomherocontent {
     width: 38%;
     background-color: #f1e7dc;
     min-height: 62vh;
@@ -342,13 +353,15 @@ body {
 
 .kitchenproducts,
 .livingroomproducts,
-.flowerpotproducts {
+.flowerpotproducts,
+.bedroomproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 
   .kitchenproductsflex,
   .livingroomproductsflex,
-  .flowerpotproductsflex {
+  .flowerpotproductsflex,
+  .bedroomproductsflex {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -366,7 +379,8 @@ body {
 
     .kitchenitem,
     .livingroomitem,
-    .flowerpotitem {
+    .flowerpotitem,
+    .bedroomitem {
       width: 20%;
       margin: 20px 20px;
 
@@ -633,11 +647,12 @@ body {
     background-color: transparent;
     border: 2px solid #424242;
   }
+  .mobileshow {
+    display: none;
+  }
 }
 
-.hide1 {
-  display: none;
-}
+
 
 
 .show-cart {
@@ -816,6 +831,20 @@ border: 2px solid #424242;
     }
   }
   .navbar-nav {
+    background-color: #fff;
+  }
+  .mobileshow {
+    display: unset !important;
+    a {
+      background-color: #424242 !important;
+      color: white !important;
+      font-family: 'Raleway', sans-serif !important;
+    }
+  }
+  .mobilehide {
+    display: none;
+  }
+  .nav-item {
     background-color: #fff;
   }
 }
