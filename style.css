@@ -372,7 +372,7 @@ body {
   min-height: 62vh;
 }
 
-.flowerpots {
+.flowerpothero {
   background-image: url(img/flowerpot.jpg);
   -o-object-fit: cover;
      object-fit: cover;
@@ -384,7 +384,7 @@ body {
 
 .kitchenheroflex,
 .livingroomheroflex,
-.flowerpotflex,
+.flowerpotheroflex,
 .bedroomheroflex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,19 +400,19 @@ body {
 
 .kitchenheroflex .kitchenherocontent,
 .kitchenheroflex .livingroomherocontent,
-.kitchenheroflex .flowerpotcontent,
+.kitchenheroflex .flowerpotherocontent,
 .kitchenheroflex .bedroomherocontent,
 .livingroomheroflex .kitchenherocontent,
 .livingroomheroflex .livingroomherocontent,
-.livingroomheroflex .flowerpotcontent,
+.livingroomheroflex .flowerpotherocontent,
 .livingroomheroflex .bedroomherocontent,
-.flowerpotflex .kitchenherocontent,
-.flowerpotflex .livingroomherocontent,
-.flowerpotflex .flowerpotcontent,
-.flowerpotflex .bedroomherocontent,
+.flowerpotheroflex .kitchenherocontent,
+.flowerpotheroflex .livingroomherocontent,
+.flowerpotheroflex .flowerpotherocontent,
+.flowerpotheroflex .bedroomherocontent,
 .bedroomheroflex .kitchenherocontent,
 .bedroomheroflex .livingroomherocontent,
-.bedroomheroflex .flowerpotcontent,
+.bedroomheroflex .flowerpotherocontent,
 .bedroomheroflex .bedroomherocontent {
   width: 38%;
   background-color: #f1e7dc;
@@ -428,23 +428,24 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 3rem;
+  text-align: center;
 }
 
 .kitchenheroflex .kitchenherocontent h1,
 .kitchenheroflex .livingroomherocontent h1,
-.kitchenheroflex .flowerpotcontent h1,
+.kitchenheroflex .flowerpotherocontent h1,
 .kitchenheroflex .bedroomherocontent h1,
 .livingroomheroflex .kitchenherocontent h1,
 .livingroomheroflex .livingroomherocontent h1,
-.livingroomheroflex .flowerpotcontent h1,
+.livingroomheroflex .flowerpotherocontent h1,
 .livingroomheroflex .bedroomherocontent h1,
-.flowerpotflex .kitchenherocontent h1,
-.flowerpotflex .livingroomherocontent h1,
-.flowerpotflex .flowerpotcontent h1,
-.flowerpotflex .bedroomherocontent h1,
+.flowerpotheroflex .kitchenherocontent h1,
+.flowerpotheroflex .livingroomherocontent h1,
+.flowerpotheroflex .flowerpotherocontent h1,
+.flowerpotheroflex .bedroomherocontent h1,
 .bedroomheroflex .kitchenherocontent h1,
 .bedroomheroflex .livingroomherocontent h1,
-.bedroomheroflex .flowerpotcontent h1,
+.bedroomheroflex .flowerpotherocontent h1,
 .bedroomheroflex .bedroomherocontent h1 {
   font-weight: 700;
   font-family: 'Playfair Display', serif;
@@ -1084,6 +1085,10 @@ body {
   display: none;
 }
 
+#cards {
+  scroll-margin-top: 100px !important;
+}
+
 .show-cart button, .show-cart input[type="submit"] {
   border: 1px solid #333;
   color: #fff;
@@ -1267,6 +1272,125 @@ body {
   .services .servicesflex .serviceitem {
     margin-bottom: 2rem;
   }
+  .livingroomhero,
+  .flowerpothero,
+  .kitchenproducts,
+  .bedroomherocontent,
+  .kitchenheroflex,
+  .livingroomheroflex,
+  .bedroomheroflex,
+  .flowerpotheroflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    background-size: cover;
+    background-position: center center;
+  }
+  .livingroomhero .kitchenherocontent,
+  .livingroomhero .livingroomherocontent,
+  .livingroomhero .bedroomherocontent,
+  .livingroomhero .flowerpotherocontent,
+  .flowerpothero .kitchenherocontent,
+  .flowerpothero .livingroomherocontent,
+  .flowerpothero .bedroomherocontent,
+  .flowerpothero .flowerpotherocontent,
+  .kitchenproducts .kitchenherocontent,
+  .kitchenproducts .livingroomherocontent,
+  .kitchenproducts .bedroomherocontent,
+  .kitchenproducts .flowerpotherocontent,
+  .bedroomherocontent .kitchenherocontent,
+  .bedroomherocontent .livingroomherocontent,
+  .bedroomherocontent .bedroomherocontent,
+  .bedroomherocontent .flowerpotherocontent,
+  .kitchenheroflex .kitchenherocontent,
+  .kitchenheroflex .livingroomherocontent,
+  .kitchenheroflex .bedroomherocontent,
+  .kitchenheroflex .flowerpotherocontent,
+  .livingroomheroflex .kitchenherocontent,
+  .livingroomheroflex .livingroomherocontent,
+  .livingroomheroflex .bedroomherocontent,
+  .livingroomheroflex .flowerpotherocontent,
+  .bedroomheroflex .kitchenherocontent,
+  .bedroomheroflex .livingroomherocontent,
+  .bedroomheroflex .bedroomherocontent,
+  .bedroomheroflex .flowerpotherocontent,
+  .flowerpotheroflex .kitchenherocontent,
+  .flowerpotheroflex .livingroomherocontent,
+  .flowerpotheroflex .bedroomherocontent,
+  .flowerpotheroflex .flowerpotherocontent {
+    width: 50%;
+    min-height: unset;
+  }
+  .livingroomhero .kitchenherocontent h1,
+  .livingroomhero .livingroomherocontent h1,
+  .livingroomhero .bedroomherocontent h1,
+  .livingroomhero .flowerpotherocontent h1,
+  .flowerpothero .kitchenherocontent h1,
+  .flowerpothero .livingroomherocontent h1,
+  .flowerpothero .bedroomherocontent h1,
+  .flowerpothero .flowerpotherocontent h1,
+  .kitchenproducts .kitchenherocontent h1,
+  .kitchenproducts .livingroomherocontent h1,
+  .kitchenproducts .bedroomherocontent h1,
+  .kitchenproducts .flowerpotherocontent h1,
+  .bedroomherocontent .kitchenherocontent h1,
+  .bedroomherocontent .livingroomherocontent h1,
+  .bedroomherocontent .bedroomherocontent h1,
+  .bedroomherocontent .flowerpotherocontent h1,
+  .kitchenheroflex .kitchenherocontent h1,
+  .kitchenheroflex .livingroomherocontent h1,
+  .kitchenheroflex .bedroomherocontent h1,
+  .kitchenheroflex .flowerpotherocontent h1,
+  .livingroomheroflex .kitchenherocontent h1,
+  .livingroomheroflex .livingroomherocontent h1,
+  .livingroomheroflex .bedroomherocontent h1,
+  .livingroomheroflex .flowerpotherocontent h1,
+  .bedroomheroflex .kitchenherocontent h1,
+  .bedroomheroflex .livingroomherocontent h1,
+  .bedroomheroflex .bedroomherocontent h1,
+  .bedroomheroflex .flowerpotherocontent h1,
+  .flowerpotheroflex .kitchenherocontent h1,
+  .flowerpotheroflex .livingroomherocontent h1,
+  .flowerpotheroflex .bedroomherocontent h1,
+  .flowerpotheroflex .flowerpotherocontent h1 {
+    margin-top: 0;
+  }
+  .livingroomproducts,
+  .kitchenproducts,
+  .bedroomproducts,
+  .flowerpotproducts {
+    padding-top: 0;
+  }
+  .kitchenproductsflex,
+  .livingroomproductsflex,
+  .flowerpotproductsflex,
+  .bedroomproductsflex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column nowrap !important;
+            flex-flow: column nowrap !important;
+    padding: 2rem;
+  }
+  .kitchenproductsflex .livingroomitem,
+  .kitchenproductsflex .kitchenitem,
+  .kitchenproductsflex .bedroomitem,
+  .kitchenproductsflex .flowerpotitem,
+  .livingroomproductsflex .livingroomitem,
+  .livingroomproductsflex .kitchenitem,
+  .livingroomproductsflex .bedroomitem,
+  .livingroomproductsflex .flowerpotitem,
+  .flowerpotproductsflex .livingroomitem,
+  .flowerpotproductsflex .kitchenitem,
+  .flowerpotproductsflex .bedroomitem,
+  .flowerpotproductsflex .flowerpotitem,
+  .bedroomproductsflex .livingroomitem,
+  .bedroomproductsflex .kitchenitem,
+  .bedroomproductsflex .bedroomitem,
+  .bedroomproductsflex .flowerpotitem {
+    width: 100% !important;
+    text-align: center;
+  }
   .customerserviceflex {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -1299,23 +1423,12 @@ body {
   margin-right: 0.5rem;
 }
 
-/*
 @media screen and (max-width: 1300px) {
-
-  .kitchenheroflex,
-  .livingroomheroflex {
-    flex-flow: column nowrap;
-
-    .kitchenherocontent,
-    .livingroomherocontent {
-      width: 100%;
-    }
-  }
   .navbar {
     max-height: unset;
   }
 }
-*/
+
 /*
 .side-nav {
     position: relative;
@@ -1354,4 +1467,97 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
 }
+
+/*
+.card1 {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background-color: #122936;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card1::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196fc;
+  transform: skewY(345deg);
+  transition: all 0.5s;
+}
+
+.card1:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+
+
+.card1 .imghp {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.card1 .imghp img {
+  max-width: 100%;
+  transition: all 0.5s;
+}
+
+.card1:hover .imghp img {
+  max-width: 50%;
+}
+
+.card1 .contenthp {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  z-index: 1;
+}
+
+.card1 .contenthp h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card1 .contenthp .price {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card1 .contenthp .buy {
+  position: relative;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  opacity: 0;
+
+}
+
+.card1:hover .contenthp .buy {
+  top: 0;
+  opacity: 1;
+} 
+
+*/
 /*# sourceMappingURL=style.css.map */

@@ -312,7 +312,7 @@ body {
   min-height: 62vh;
 }
 
-.flowerpots {
+.flowerpothero {
   background-image: url(img/flowerpot.jpg);
   object-fit: cover;
   width: 100%;
@@ -323,7 +323,7 @@ body {
 
 .kitchenheroflex,
 .livingroomheroflex,
-.flowerpotflex,
+.flowerpotheroflex,
 .bedroomheroflex {
   display: flex;
   flex-flow: row nowrap;
@@ -331,7 +331,7 @@ body {
 
   .kitchenherocontent,
   .livingroomherocontent,
-  .flowerpotcontent,
+  .flowerpotherocontent,
   .bedroomherocontent {
     width: 38%;
     background-color: #f1e7dc;
@@ -340,6 +340,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     padding: 3rem;
+    text-align: center;
 
     h1 {
       font-weight: 700;
@@ -652,6 +653,10 @@ body {
   }
 }
 
+#cards {
+  scroll-margin-top: 100px !important;
+}
+
 
 
 
@@ -824,6 +829,49 @@ border: 2px solid #424242;
       }
     }
   }
+  .livingroomhero,
+  .flowerpothero,
+  .kitchenproducts,
+  .bedroomherocontent,
+  .kitchenheroflex,
+  .livingroomheroflex,
+  .bedroomheroflex,
+  .flowerpotheroflex {
+    flex-flow: column nowrap;
+    background-size: cover;
+    background-position: center center;
+
+    .kitchenherocontent,
+    .livingroomherocontent,
+    .bedroomherocontent,
+    .flowerpotherocontent {
+      width: 50%;
+      min-height: unset;
+      h1 {
+        margin-top: 0;
+      }
+    }
+  }
+  .livingroomproducts,
+  .kitchenproducts,
+  .bedroomproducts,
+  .flowerpotproducts {
+    padding-top: 0;
+  }
+  .kitchenproductsflex,
+  .livingroomproductsflex,
+  .flowerpotproductsflex,
+  .bedroomproductsflex {
+    flex-flow: column nowrap !important;
+    padding: 2rem;
+    .livingroomitem,
+    .kitchenitem,
+    .bedroomitem,
+    .flowerpotitem {
+      width: 100% !important;
+      text-align: center;
+    }
+  } 
   .customerserviceflex {
     flex-flow: column nowrap !important;
     .contact {
@@ -841,6 +889,7 @@ border: 2px solid #424242;
       font-family: 'Raleway', sans-serif !important;
     }
   }
+  
   .mobilehide {
     display: none;
   }
@@ -852,23 +901,15 @@ border: 2px solid #424242;
 .fa-quote-left {
   margin-right: 0.5rem;
 }
-/*
+
 @media screen and (max-width: 1300px) {
 
-  .kitchenheroflex,
-  .livingroomheroflex {
-    flex-flow: column nowrap;
-
-    .kitchenherocontent,
-    .livingroomherocontent {
-      width: 100%;
-    }
-  }
+  
   .navbar {
     max-height: unset;
   }
 }
-*/
+
 /*
 .side-nav {
     position: relative;
@@ -903,3 +944,95 @@ border: 2px solid #424242;
   height: 200px;
   align-self: center;
 }
+/*
+.card1 {
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background-color: #122936;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card1::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196fc;
+  transform: skewY(345deg);
+  transition: all 0.5s;
+}
+
+.card1:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+
+
+.card1 .imghp {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.card1 .imghp img {
+  max-width: 100%;
+  transition: all 0.5s;
+}
+
+.card1:hover .imghp img {
+  max-width: 50%;
+}
+
+.card1 .contenthp {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  z-index: 1;
+}
+
+.card1 .contenthp h3 {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card1 .contenthp .price {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.card1 .contenthp .buy {
+  position: relative;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  opacity: 0;
+
+}
+
+.card1:hover .contenthp .buy {
+  top: 0;
+  opacity: 1;
+} 
+
+*/
