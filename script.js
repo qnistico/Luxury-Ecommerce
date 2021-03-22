@@ -10,17 +10,15 @@ var content = [
         firstpar: "Wooden Table",
         h1: "Wooden Table With Drawers",
         price: "$399.99",
-        content: "I am the best",
         description: "Wooden table with drawers.  Perfect for dining as well as storage."
     },
     {
         id: 2,
         jsimg: "img/kitchenimg6-removebg-preview.png",
-        firstpar: "John so cool",
-        h1: "A thing!",
+        firstpar: "Bar Stool",
+        h1: "Kitchen Bar Stool",
         price: "$149.99",
-        content: "I am the best, still!",
-        description: "Hand crafted fiber by superman as Jesus.  Each God sitting."
+        description: "Kitchen bar stool.  Small and comfortable."
     },
     {
         id: 3,
