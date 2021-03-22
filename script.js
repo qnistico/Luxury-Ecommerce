@@ -6,19 +6,19 @@ $(document).ready(function () {
 var content = [
     {
         id: 1,
-        jsimg: "img/kitchensilverware-removebg-preview.png",
-        firstpar: "Leather Sofa",
-        h1: "Luxury Handmade Sofa",
-        price: "$32.00",
+        jsimg: "img/kitchenimg5-removebg-preview.png",
+        firstpar: "Wooden Table",
+        h1: "Wooden Table With Drawers",
+        price: "$399.99",
         content: "I am the best",
-        description: "Hand crafted one fiber at a time by superman as well as Jesus.  Each fiber is blessed with the power of God and will grant immortality upon sitting."
+        description: "Wooden table with drawers.  Perfect for dining as well as storage."
     },
     {
         id: 2,
-        jsimg: "img/kitchenimg2-removebg-preview.png",
+        jsimg: "img/kitchenimg6-removebg-preview.png",
         firstpar: "John so cool",
         h1: "A thing!",
-        price: "$3222222.00",
+        price: "$149.99",
         content: "I am the best, still!",
         description: "Hand crafted fiber by superman as Jesus.  Each God sitting."
     },
