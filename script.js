@@ -144,6 +144,42 @@ var content = [
         price: "$2750.00",
         description: "Black leather sofa complete with a long corner segment for relaxing."
     }
+    ,
+    {
+        id: 25,
+        jsimg: "img/flowerpot1-removebg-preview (1).png",
+        firstpar: "Flower Pot",
+        h1: "Clay Flower Pot",
+        price: "$65.00",
+        description: "Clay flower pot for flowers or plants."
+    }
+    ,
+    {
+        id: 26,
+        jsimg: "img/flowerpot2-removebg-preview.png",
+        firstpar: "Flower Pot",
+        h1: "Clay Flower Pot",
+        price: "$65.00",
+        description: "Clay flower pot for flowers or plants."
+    }
+    ,
+    {
+        id: 27,
+        jsimg: "img/flowerpot3-removebg-preview.png",
+        firstpar: "Set of 4 Pots",
+        h1: "Set of 4 Flower Pots",
+        price: "$199.99",
+        description: "Set of 4 flower pots for flowers or plants."
+    }
+    ,
+    {
+        id: 28,
+        jsimg: "img/livingroom1-removebg-preview.png",
+        firstpar: "Set of 3 Pots",
+        h1: "Set of 3 Flower Pots",
+        price: "$149.99",
+        description: "Set of 3 flower pots for flowers or plants."
+    }
 ]
 
 
