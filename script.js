@@ -54,6 +54,24 @@ var content = [
         price: "$65.00",
         description: "Two handmade wooden bowls."
     }
+    ,
+    {
+        id: 7,
+        jsimg: "img/kitchenimg8-removebg-preview.png",
+        firstpar: "Set of Plates",
+        h1: "Set of 8 Plates",
+        price: "$199.99",
+        description: "Set of 8 colorful clay plates."
+    }
+    ,
+    {
+        id: 8,
+        jsimg: "img/kitchenimg3.png",
+        firstpar: "Light Fixture",
+        h1: "Single Light Fixture",
+        price: "$75.00",
+        description: "Single light fixture.  Perfect for illuminating cooking surfaces."
+    }
 ]
 
 
