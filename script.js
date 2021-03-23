@@ -72,6 +72,78 @@ var content = [
         price: "$75.00",
         description: "Single light fixture.  Perfect for illuminating cooking surfaces."
     }
+    ,
+    {
+        id: 9,
+        jsimg: "img/livingroom1-removebg-preview.png",
+        firstpar: "Black Sofa",
+        h1: "Black Long Sofa",
+        price: "$2750.00",
+        description: "Black leather sofa complete with a long corner segment for relaxing."
+    }
+    ,
+    {
+        id: 10,
+        jsimg: "img/livingroom2-removebg-preview.png",
+        firstpar: "Leather Futon",
+        h1: "Premium Leather Futon",
+        price: "$1440.00",
+        description: "Premium leather futon complete with 2 pillows."
+    }
+    ,
+    {
+        id: 11,
+        jsimg: "img/Sofa2-removebg-preview.png",
+        firstpar: "Brown Sofa",
+        h1: "Brown Long Sofa",
+        price: "$2750.00",
+        description: "Brown leather sofa complete with a long corner segment for relaxing."
+    }
+    ,
+    {
+        id: 12,
+        jsimg: "img/couch-removebg-preview.png",
+        firstpar: "Leather Couch",
+        h1: "White Leather Couch",
+        price: "$1999.99",
+        description: "White leather couch complete with two pillows."
+    }
+    ,
+    {
+        id: 13,
+        jsimg: "img/pillow-removebg-preview.png",
+        firstpar: "Pillow",
+        h1: "Festive Pillow",
+        price: "$25.00",
+        description: "Handmade colorful pillow for couches or chairs."
+    }
+    ,
+    {
+        id: 14,
+        jsimg: "img/livingroomchair-removebg-preview.png",
+        firstpar: "Small Couch",
+        h1: "2 Person Couch",
+        price: "$999.99",
+        description: "Small 2 person couch complete with 3 pillows."
+    }
+    ,
+    {
+        id: 15,
+        jsimg: "img/livingroom2-removebg-preview.png",
+        firstpar: "Leather Futon",
+        h1: "Premium Leather Futon",
+        price: "$1440.00",
+        description: "Premium leather futon complete with 2 pillows."
+    }
+    ,
+    {
+        id: 16,
+        jsimg: "img/livingroom1-removebg-preview.png",
+        firstpar: "Black Sofa",
+        h1: "Black Long Sofa",
+        price: "$2750.00",
+        description: "Black leather sofa complete with a long corner segment for relaxing."
+    }
 ]
 
 
