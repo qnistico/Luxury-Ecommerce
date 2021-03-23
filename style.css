@@ -837,13 +837,13 @@ body {
 }
 
 .templateflex .templatecontent h1 {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .templateflex .templatecontent h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .opinion {
