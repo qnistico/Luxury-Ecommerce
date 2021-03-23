@@ -36,7 +36,24 @@ var content = [
         price: "$75.00",
         description: "Single light fixture.  Perfect for illuminating cooking surfaces."
     }
-
+    ,
+    {
+        id: 5,
+        jsimg: "img/kitchen7-removebg-preview.png",
+        firstpar: "Dish Set",
+        h1: "Bowls, Plates and Silverware",
+        price: "$149.99",
+        description: "5 bowls, 5 plates and 2 sets of forks with spoons."
+    }
+    ,
+    {
+        id: 6,
+        jsimg: "img/kitchenimg2-removebg-preview.png",
+        firstpar: "Handmade Bowls",
+        h1: "Set of Handmade Bowls",
+        price: "$65.00",
+        description: "Two handmade wooden bowls."
+    }
 ]
 
 
