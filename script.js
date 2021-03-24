@@ -93,7 +93,7 @@ var content = [
     ,
     {
         id: 11,
-        jsimg: "img/Sofa2-removebg-preview.png",
+        jsimg: "img/couch2-removebg-preview.png",
         firstpar: "Brown Sofa",
         h1: "Brown Long Sofa",
         price: "$2750.00",
