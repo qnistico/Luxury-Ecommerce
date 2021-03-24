@@ -174,7 +174,7 @@ var content = [
     ,
     {
         id: 28,
-        jsimg: "img/livingroom1-removebg-preview.png",
+        jsimg: "img/flowerpot4-removebg-preview (1).png",
         firstpar: "Set of 3 Pots",
         h1: "Set of 3 Flower Pots",
         price: "$149.99",
