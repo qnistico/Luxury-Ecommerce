@@ -146,6 +146,42 @@ var content = [
     }
     ,
     {
+        id: 17,
+        jsimg: "img/bed1.jpg",
+        firstpar: "Queen Size Bed",
+        h1: "Queen Size Bed",
+        price: "$1399.99",
+        description: "Queen size bed.  Soft mattress that can fit 2 people."
+    }
+    ,
+    {
+        id: 18,
+        jsimg: "img/bed2.jpg",
+        firstpar: "King Size Bed",
+        h1: "King Size Bed",
+        price: "$2499.99",
+        description: "King size bed.  Soft mattress that can fit 2-3 people."
+    }
+    ,
+    {
+        id: 19,
+        jsimg: "img/bed3.jpg",
+        firstpar: "Queen Size Bed",
+        h1: "Queen Size Bed",
+        price: "$1999.99",
+        description: "Queen size bed.  Soft mattress that can fit 2 people."
+    }
+    ,
+    {
+        id: 20,
+        jsimg: "img/bed4.jpg",
+        firstpar: "Queen Size Bed",
+        h1: "Queen Size Bed",
+        price: "$1999.99",
+        description: "Queen size bed.  Soft mattress that can fit 2 people."
+    }
+    ,
+    {
         id: 25,
         jsimg: "img/flowerpot1-removebg-preview (1).png",
         firstpar: "Flower Pot",

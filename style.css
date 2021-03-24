@@ -1420,9 +1420,6 @@ body {
   .mobilehide {
     display: none;
   }
-  .nav-item {
-    background-color: #fff;
-  }
 }
 
 .fa-quote-left {
