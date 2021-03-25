@@ -1577,6 +1577,9 @@ body {
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
   }
+  .templateflex img {
+    width: 100%;
+  }
   .livingroomhero,
   .flowerpothero,
   .bathroomhero,
