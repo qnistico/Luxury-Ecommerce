@@ -10,7 +10,9 @@ var content = [
         firstpar: "Wooden Table",
         h1: "Wooden Table With Drawers",
         price: "$399.99",
-        description: "Wooden table with drawers.  Perfect for dining as well as storage."
+        description: "Wooden table with drawers.  Perfect for dining as well as storage.",
+        button: '<a href="#" data-name="Setof4Pots" data-price="199" class="add-to-cart herobutton">Add to cart</a>'
+        
     },
     {
         id: 2,
