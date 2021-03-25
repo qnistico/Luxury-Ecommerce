@@ -1582,6 +1582,9 @@ body {
     width: 100%;
     margin-bottom: 0;
   }
+  .templateflex .templatecontent {
+    margin-top: 2rem;
+  }
   .livingroomhero,
   .flowerpothero,
   .bathroomhero,
