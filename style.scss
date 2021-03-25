@@ -847,6 +847,9 @@ border: 2px solid #424242;
       }
     }
   }
+  .templateflex {
+    flex-flow: column nowrap;
+  }
   .livingroomhero,
   .flowerpothero,
   .bathroomhero,
@@ -866,8 +869,7 @@ border: 2px solid #424242;
     .bedroomherocontent,
     .flowerpotherocontent,
     .bathroomherocontent {
-      width: 50%;
-      min-height: unset;
+      width: 100%;
       h1 {
         margin-top: 0;
       }
@@ -890,7 +892,8 @@ border: 2px solid #424242;
     .livingroomitem,
     .kitchenitem,
     .bedroomitem,
-    .flowerpotitem {
+    .flowerpotitem,
+    .bathroomitem {
       width: 100% !important;
       text-align: center;
     }

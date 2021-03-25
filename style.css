@@ -1571,6 +1571,12 @@ body {
   .services .servicesflex .serviceitem {
     margin-bottom: 2rem;
   }
+  .templateflex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
   .livingroomhero,
   .flowerpothero,
   .bathroomhero,
@@ -1638,8 +1644,7 @@ body {
   .flowerpotheroflex .bedroomherocontent,
   .flowerpotheroflex .flowerpotherocontent,
   .flowerpotheroflex .bathroomherocontent {
-    width: 50%;
-    min-height: unset;
+    width: 100%;
   }
   .livingroomhero .kitchenherocontent h1,
   .livingroomhero .livingroomherocontent h1,
@@ -1715,22 +1720,27 @@ body {
   .kitchenproductsflex .kitchenitem,
   .kitchenproductsflex .bedroomitem,
   .kitchenproductsflex .flowerpotitem,
+  .kitchenproductsflex .bathroomitem,
   .livingroomproductsflex .livingroomitem,
   .livingroomproductsflex .kitchenitem,
   .livingroomproductsflex .bedroomitem,
   .livingroomproductsflex .flowerpotitem,
+  .livingroomproductsflex .bathroomitem,
   .flowerpotproductsflex .livingroomitem,
   .flowerpotproductsflex .kitchenitem,
   .flowerpotproductsflex .bedroomitem,
   .flowerpotproductsflex .flowerpotitem,
+  .flowerpotproductsflex .bathroomitem,
   .bedroomproductsflex .livingroomitem,
   .bedroomproductsflex .kitchenitem,
   .bedroomproductsflex .bedroomitem,
   .bedroomproductsflex .flowerpotitem,
+  .bedroomproductsflex .bathroomitem,
   .bathroomproductsflex .livingroomitem,
   .bathroomproductsflex .kitchenitem,
   .bathroomproductsflex .bedroomitem,
-  .bathroomproductsflex .flowerpotitem {
+  .bathroomproductsflex .flowerpotitem,
+  .bathroomproductsflex .bathroomitem {
     width: 100% !important;
     text-align: center;
   }
