@@ -321,10 +321,20 @@ body {
   min-height: 62vh;
 }
 
+.bathroomhero {
+  background-image: url(img/accessories.jpg);
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+  background-position: 18rem 50%;
+  min-height: 62vh;
+}
+
 .kitchenheroflex,
 .livingroomheroflex,
 .flowerpotheroflex,
-.bedroomheroflex {
+.bedroomheroflex,
+.bathroomheroflex {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -332,7 +342,8 @@ body {
   .kitchenherocontent,
   .livingroomherocontent,
   .flowerpotherocontent,
-  .bedroomherocontent {
+  .bedroomherocontent,
+  .bathroomherocontent {
     width: 38%;
     background-color: #f1e7dc;
     min-height: 62vh;
@@ -355,14 +366,16 @@ body {
 .kitchenproducts,
 .livingroomproducts,
 .flowerpotproducts,
-.bedroomproducts {
+.bedroomproducts,
+.bathroomproducts {
   width: 100%;
   padding: 3rem 0 3rem 0;
 
   .kitchenproductsflex,
   .livingroomproductsflex,
   .flowerpotproductsflex,
-  .bedroomproductsflex {
+  .bedroomproductsflex,
+  .bathroomproductsflex {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -381,7 +394,8 @@ body {
     .kitchenitem,
     .livingroomitem,
     .flowerpotitem,
-    .bedroomitem {
+    .bedroomitem,
+    .bathroomitem {
       width: 20%;
       margin: 20px 20px;
 
@@ -835,11 +849,13 @@ border: 2px solid #424242;
   }
   .livingroomhero,
   .flowerpothero,
+  .bathroomhero,
   .kitchenproducts,
   .bedroomherocontent,
   .kitchenheroflex,
   .livingroomheroflex,
   .bedroomheroflex,
+  .bathroomheroflex,
   .flowerpotheroflex {
     flex-flow: column nowrap;
     background-size: cover;
@@ -848,7 +864,8 @@ border: 2px solid #424242;
     .kitchenherocontent,
     .livingroomherocontent,
     .bedroomherocontent,
-    .flowerpotherocontent {
+    .flowerpotherocontent,
+    .bathroomherocontent {
       width: 50%;
       min-height: unset;
       h1 {
@@ -859,13 +876,15 @@ border: 2px solid #424242;
   .livingroomproducts,
   .kitchenproducts,
   .bedroomproducts,
-  .flowerpotproducts {
+  .flowerpotproducts,
+  .bathroomproducts {
     padding-top: 0;
   }
   .kitchenproductsflex,
   .livingroomproductsflex,
   .flowerpotproductsflex,
-  .bedroomproductsflex {
+  .bedroomproductsflex,
+  .bathroomproductsflex {
     flex-flow: column nowrap !important;
     padding: 2rem;
     .livingroomitem,

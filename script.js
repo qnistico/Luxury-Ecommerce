@@ -182,6 +182,42 @@ var content = [
     }
     ,
     {
+        id: 21,
+        jsimg: "img/bathroom1.jpg",
+        firstpar: "Granite Sink",
+        h1: "Complete Granite Sink",
+        price: "$499.99",
+        description: "Ready-made granite sink for small bathroom."
+    }
+    ,
+    {
+        id: 22,
+        jsimg: "img/bathroom2.jpg",
+        firstpar: "Porcelain Sink",
+        h1: "Ready-made Porcelain Sink",
+        price: "$499.99",
+        description: "Ready-made porcelain sink for small bathroom."
+    }
+    ,
+    {
+        id: 23,
+        jsimg: "img/bathroom3.jpg",
+        firstpar: "Towel Rack",
+        h1: "Single Towel Rack",
+        price: "$49.99",
+        description: "Single towel rack for small bathroom."
+    }
+    ,
+    {
+        id: 24,
+        jsimg: "img/bathroom4.jpg",
+        firstpar: "Set of Towels",
+        h1: "Set of 3 Towels",
+        price: "$49.99",
+        description: "Set of 3 towels."
+    }
+    ,
+    {
         id: 25,
         jsimg: "img/flowerpot1-removebg-preview (1).png",
         firstpar: "Flower Pot",
