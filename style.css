@@ -1490,6 +1490,7 @@ body {
   .herocontainer .herocontent {
     padding: 1rem !important;
     width: 300px !important;
+    min-width: unset;
     margin-top: 50% !important;
   }
   .herocontainer .herocontent h1 {
@@ -1579,6 +1580,7 @@ body {
   }
   .templateflex img {
     width: 100%;
+    margin-bottom: 0;
   }
   .livingroomhero,
   .flowerpothero,
@@ -1648,6 +1650,7 @@ body {
   .flowerpotheroflex .flowerpotherocontent,
   .flowerpotheroflex .bathroomherocontent {
     width: 100%;
+    padding-top: 7.5rem;
   }
   .livingroomhero .kitchenherocontent h1,
   .livingroomhero .livingroomherocontent h1,
@@ -1777,6 +1780,10 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
+  .herocontent {
+    margin-top: 25rem !important;
+    min-width: 450px;
+  }
   .navbar {
     max-height: unset;
   }
