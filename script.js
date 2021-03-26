@@ -11,7 +11,7 @@ var content = [
         h1: "Wooden Table With Drawers",
         price: "$399.99",
         description: "Wooden table with drawers.  Perfect for dining as well as storage.",
-        button: '<a href="#" data-name="Set of 4Pots" data-price="199" class="add-to-cart herobutton">Add to cart</a>'
+        button: '<a href="#" data-name="Set of 4 Pots" data-price="199" class="add-to-cart herobutton">Add to cart</a>'
         
     },
     {
@@ -355,6 +355,7 @@ var shoppingCart = (function() {
     // Remove all items from cart
     obj.removeItemFromCartAll = function(name) {
       for(var item in cart) {
+        console.log(cart[item].name,name);
         if(cart[item].name === name) {
           cart.splice(item, 1);
           break;
@@ -452,6 +453,7 @@ var shoppingCart = (function() {
         + "<td>" + cartArray[i].total + "</td>" 
         +  "</tr>";
     }
+    console.log(output);
     $('.show-cart').html(output);
     $('.total-cart').html(shoppingCart.totalCart());
     $('.total-count').html(shoppingCart.totalCount());
@@ -462,6 +464,7 @@ var shoppingCart = (function() {
   $('.show-cart').on("click", ".delete-item", function(event) {
     var name = $(this).data('name')
     shoppingCart.removeItemFromCartAll(name);
+    console.log('.delete-item');
     displayCart();
   })
   

@@ -1491,7 +1491,6 @@ body {
     padding: 1rem !important;
     width: 300px !important;
     min-width: unset;
-    margin-top: 50% !important;
   }
   .herocontainer .herocontent h1 {
     font-size: 32px !important;
@@ -1783,8 +1782,10 @@ body {
 }
 
 @media screen and (max-width: 1300px) {
+  .heroflex {
+    min-height: 90vh;
+  }
   .herocontent {
-    margin-top: 25rem !important;
     min-width: 450px;
   }
   .navbar {

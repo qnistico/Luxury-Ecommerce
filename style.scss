@@ -780,7 +780,6 @@ border: 2px solid #424242;
       padding: 1rem !important;
       width: 300px !important;
       min-width: unset;
-      margin-top: 50% !important;
       h1 {
         font-size: 32px !important;
       }
@@ -937,8 +936,8 @@ border: 2px solid #424242;
 }
 
 @media screen and (max-width: 1300px) {
+  .heroflex {min-height: 90vh;}
 .herocontent {
-  margin-top: 25rem !important;
   min-width: 450px;
 }
   
