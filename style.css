@@ -101,8 +101,7 @@ body {
 }
 
 .herobutton:hover,
-.herobutton:active,
-.herobutton:focus {
+.herobutton:active {
   background-color: transparent !important;
   color: black;
 }

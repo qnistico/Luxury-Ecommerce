@@ -84,11 +84,11 @@ body {
 }
 
 .herobutton:hover,
-.herobutton:active,
-.herobutton:focus {
+.herobutton:active {
   background-color: transparent !important;
   color: black;
 }
+
 
 .featured {
   width: 100%;
@@ -773,7 +773,6 @@ border: 2px solid #424242;
 }
 
 
-
 @media screen and (max-width: 768px) {
   .herocontainer {
     .herocontent {
@@ -870,6 +869,7 @@ border: 2px solid #424242;
     flex-flow: column nowrap;
     background-size: cover;
     background-position: center center;
+    
 
     .kitchenherocontent,
     .livingroomherocontent,
