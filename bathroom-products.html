@@ -39,6 +39,34 @@
     
   
     <!-- Collapse button -->
+    <div class="nav-item">
+      <button type="button" class="nav-link cartbutton mobileshowcart" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>
+        (<span class="total-count"></span>)</button></div>
+        
+        
+        <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="show-cart table">
+                
+              </table>
+              <div>Total price: $<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+              <button class="clear-cart">Clear Cart</button>
+              <button type="button" class="herobutton">Order now</button>
+            </div>
+          </div>
+          </div>
+          </div> 
+          </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
       aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="fas fa-bars"></i></span>
@@ -321,7 +349,7 @@
   
       
   <div class="nav-item">
-  <button type="button" class="nav-link cartbutton" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>
+  <button type="button" class="nav-link cartbutton mobilehidecart" data-toggle="modal" data-target="#cart"><i class="fas fa-shopping-cart"></i>
     (<span class="total-count"></span>)</button></div>
     
     

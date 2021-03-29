@@ -71,7 +71,9 @@ body {
   }
 }
 
-
+.mobileshowcart {
+  display: none !important;
+}
 
 .herobutton {
   background-color: #424242;
@@ -649,6 +651,13 @@ body {
     letter-spacing: 2px;
   }
 
+  .productmenu {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    justify-content: center;
+  }
+
   .nav-item {
     list-style-type: none;
   }
@@ -670,6 +679,8 @@ body {
     display: none;
   }
 }
+
+
 
 #cards {
   scroll-margin-top: 100px !important;
@@ -914,6 +925,12 @@ border: 2px solid #424242;
   }
   .navbar-nav {
     background-color: #fff;
+  }
+  .mobileshowcart {
+    display: unset !important;
+  }
+  .mobilehidecart {
+    display: none !important;
   }
   .mobileshow {
     display: unset !important;

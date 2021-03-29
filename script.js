@@ -440,7 +440,7 @@ var shoppingCart = (function() {
   
   function displayCart() {
     var cartArray = shoppingCart.listCart();
-    var output = "";
+    var output = "";  
     for(var i in cartArray) {
       output += "<tr>"
         + "<td>" + cartArray[i].name + "</td>" 

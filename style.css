@@ -90,6 +90,10 @@ body {
   width: 62%;
 }
 
+.mobileshowcart {
+  display: none !important;
+}
+
 .herobutton {
   background-color: #424242;
   color: white;
@@ -1361,6 +1365,20 @@ body {
   letter-spacing: 2px;
 }
 
+.navbar .productmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .navbar .nav-item {
   list-style-type: none;
 }
@@ -1762,6 +1780,12 @@ body {
   }
   .navbar-nav {
     background-color: #fff;
+  }
+  .mobileshowcart {
+    display: unset !important;
+  }
+  .mobilehidecart {
+    display: none !important;
   }
   .mobileshow {
     display: unset !important;
