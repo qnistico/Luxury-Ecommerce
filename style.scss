@@ -631,11 +631,16 @@ body {
 }
 
 
+.livingroommenu {
+  margin-bottom: 3rem;
+}
 
 
 
-
-
+.mega-menu {
+  background-color: #333;
+  text-align: center;
+}
 
 .navbar {
   background-color: white;
@@ -684,6 +689,10 @@ body {
 
 #cards {
   scroll-margin-top: 100px !important;
+}
+
+.menu-item {
+  position: relative;
 }
 
 
@@ -783,6 +792,10 @@ border: 2px solid #424242;
   font-weight: 900;
 }
 
+.customerbutton {
+
+}
+
 
 @media screen and (max-width: 768px) {
   .herocontainer {
@@ -797,6 +810,15 @@ border: 2px solid #424242;
         width: 100% !important;
       }
     }
+  }
+  
+  .mask {
+    width: 50% !important;
+    margin: auto;
+  }
+  .overlay {
+    width: 50% !important;
+    margin: auto;
   }
   .cards,
   .cards2 {
@@ -917,6 +939,9 @@ border: 2px solid #424242;
       text-align: center;
     }
   } 
+  .productmenu {
+    flex-flow: column nowrap !important;
+  }
   .customerserviceflex {
     flex-flow: column nowrap !important;
     .contact {
@@ -947,6 +972,8 @@ border: 2px solid #424242;
   .nav-item {
   }
 }
+
+
 
 .fa-quote-left {
   margin-right: 0.5rem;
