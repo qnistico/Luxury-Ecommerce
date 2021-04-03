@@ -1117,3 +1117,15 @@ border: 2px solid #424242;
 } 
 
 */
+
+@media screen and (max-width: 320px) {
+  .mobileshowcart {
+    position: relative;
+    left: -9vw;
+  }
+  .navbar-toggler {
+    position: relative;
+    left: 75vw;
+    top: -18vw;
+  }
+}
