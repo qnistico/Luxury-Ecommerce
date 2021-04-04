@@ -11,7 +11,7 @@ var content = [
         h1: "Wooden Table With Drawers",
         price: "$399.99",
         description: "Wooden table with drawers.  Perfect for dining as well as storage.",
-        button: '<a href="#" data-name="Wooden Table" data-price="399.99" class="add-to-cart herobutton">Add to cart</a>'
+        button: '<a href="#" data-name="Wooden&nbsp;Table" data-price="399.99" class="add-to-cart herobutton">Add to cart</a>'
         
     },
     {
