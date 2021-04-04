@@ -20,7 +20,8 @@ var content = [
         firstpar: "Bar Stool",
         h1: "Kitchen Bar Stool",
         price: "$149.99",
-        description: "Kitchen bar stool.  Small and comfortable."
+        description: "Kitchen bar stool.  Small and comfortable.",
+        button: '<a href="#" data-name="Bar&nbsp;Stool" data-price="149.99" class="add-to-cart herobutton">Add to cart</a>'
     },
     {
         id: 3,
@@ -28,7 +29,8 @@ var content = [
         firstpar: "Silverware Set",
         h1: "Silverware Full Set",
         price: "$299.99",
-        description: "Premium silver forks and knives."
+        description: "Premium silver forks and knives.",
+        button: '<a href="#" data-name="Silverware&nbsp;Full&nbsp;Set" data-price="299.99" class="add-to-cart herobutton">Add to cart</a>'
     },
     {
         id: 4,
@@ -36,7 +38,8 @@ var content = [
         firstpar: "Light Fixture",
         h1: "Single Light Fixture",
         price: "$75.00",
-        description: "Single light fixture.  Perfect for illuminating cooking surfaces."
+        description: "Single light fixture.  Perfect for illuminating cooking surfaces.",
+        button: '<a href="#" data-name="Single&nbsp;Light&nbsp;Fixture" data-price="75.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -45,7 +48,8 @@ var content = [
         firstpar: "Dish Set",
         h1: "Bowls, Plates and Silverware",
         price: "$149.99",
-        description: "5 bowls, 5 plates and 2 sets of forks with spoons."
+        description: "5 bowls, 5 plates and 2 sets of forks with spoons.",
+        button: '<a href="#" data-name="Dish&nbsp;Set" data-price="149.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -54,7 +58,8 @@ var content = [
         firstpar: "Handmade Bowls",
         h1: "Set of Handmade Bowls",
         price: "$65.00",
-        description: "Two handmade wooden bowls."
+        description: "Two handmade wooden bowls.",
+        button: '<a href="#" data-name="Handmade&nbsp;Bowls" data-price="65.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -63,7 +68,8 @@ var content = [
         firstpar: "Set of Plates",
         h1: "Set of 8 Plates",
         price: "$199.99",
-        description: "Set of 8 colorful clay plates."
+        description: "Set of 8 colorful clay plates.",
+        button: '<a href="#" data-name="Set&nbsp;of&nbsp;Plates" data-price="199.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -72,7 +78,8 @@ var content = [
         firstpar: "Light Fixture",
         h1: "Single Light Fixture",
         price: "$75.00",
-        description: "Single light fixture.  Perfect for illuminating cooking surfaces."
+        description: "Single light fixture.  Perfect for illuminating cooking surfaces.",
+        button: '<a href="#" data-name="Single&nbsp;Light&nbsp;Fixture" data-price="75.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -81,7 +88,8 @@ var content = [
         firstpar: "Black Sofa",
         h1: "Black Long Sofa",
         price: "$2750.00",
-        description: "Black leather sofa complete with a long corner segment for relaxing."
+        description: "Black leather sofa complete with a long corner segment for relaxing.",
+        button: '<a href="#" data-name="Black&nbsp;Long&nbsp;Sofa" data-price="2750.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -90,7 +98,8 @@ var content = [
         firstpar: "Leather Futon",
         h1: "Premium Leather Futon",
         price: "$1440.00",
-        description: "Premium leather futon complete with 2 pillows."
+        description: "Premium leather futon complete with 2 pillows.",
+        button: '<a href="#" data-name="Leather&nbsp;Futon" data-price="1440.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -99,7 +108,8 @@ var content = [
         firstpar: "Brown Sofa",
         h1: "Brown Long Sofa",
         price: "$2750.00",
-        description: "Brown leather sofa complete with a long corner segment for relaxing."
+        description: "Brown leather sofa complete with a long corner segment for relaxing.",
+        button: '<a href="#" data-name="Brown&nbsp;Long&nbsp;Sofa" data-price="2750.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -108,7 +118,8 @@ var content = [
         firstpar: "Leather Couch",
         h1: "White Leather Couch",
         price: "$1999.99",
-        description: "White leather couch complete with two pillows."
+        description: "White leather couch complete with two pillows.",
+        button: '<a href="#" data-name="Leather&nbsp;Couch" data-price="1999.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -117,7 +128,8 @@ var content = [
         firstpar: "Pillow",
         h1: "Festive Pillow",
         price: "$25.00",
-        description: "Handmade colorful pillow for couches or chairs."
+        description: "Handmade colorful pillow for couches or chairs.",
+        button: '<a href="#" data-name="Festive&nbsp;Pillow" data-price="25.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -126,7 +138,8 @@ var content = [
         firstpar: "Small Couch",
         h1: "2 Person Couch",
         price: "$999.99",
-        description: "Small 2 person couch complete with 3 pillows."
+        description: "Small 2 person couch complete with 3 pillows.",
+        button: '<a href="#" data-name="Small&nbsp;Couch" data-price="999.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -135,7 +148,8 @@ var content = [
         firstpar: "Leather Futon",
         h1: "Premium Leather Futon",
         price: "$1440.00",
-        description: "Premium leather futon complete with 2 pillows."
+        description: "Premium leather futon complete with 2 pillows.",
+        button: '<a href="#" data-name="Leather&nbsp;Futon" data-price="1440.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -144,7 +158,8 @@ var content = [
         firstpar: "Black Sofa",
         h1: "Black Long Sofa",
         price: "$2750.00",
-        description: "Black leather sofa complete with a long corner segment for relaxing."
+        description: "Black leather sofa complete with a long corner segment for relaxing.",
+        button: '<a href="#" data-name="Black&nbsp;Long&nbsp;Sofa" data-price="2750.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -153,7 +168,8 @@ var content = [
         firstpar: "Queen Size Bed",
         h1: "Queen Size Bed",
         price: "$1399.99",
-        description: "Queen size bed.  Soft mattress that can fit 2 people."
+        description: "Queen size bed.  Soft mattress that can fit 2 people.",
+        button: '<a href="#" data-name="Queen&nbsp;Size&nbsp;Bed" data-price="1399.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -162,7 +178,8 @@ var content = [
         firstpar: "King Size Bed",
         h1: "King Size Bed",
         price: "$2499.99",
-        description: "King size bed.  Soft mattress that can fit 2-3 people."
+        description: "King size bed.  Soft mattress that can fit 2-3 people.",
+        button: '<a href="#" data-name="King&nbsp;Size&nbsp;Bed" data-price="2499.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -171,7 +188,8 @@ var content = [
         firstpar: "Queen Size Bed",
         h1: "Queen Size Bed",
         price: "$1999.99",
-        description: "Queen size bed.  Soft mattress that can fit 2 people."
+        description: "Queen size bed.  Soft mattress that can fit 2 people.",
+        button: '<a href="#" data-name="Queen&nbsp;Size&nbsp;Bed" data-price="1999.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -180,7 +198,8 @@ var content = [
         firstpar: "Queen Size Bed",
         h1: "Queen Size Bed",
         price: "$1999.99",
-        description: "Queen size bed.  Soft mattress that can fit 2 people."
+        description: "Queen size bed.  Soft mattress that can fit 2 people.",
+        button: '<a href="#" data-name="Queen&nbsp;Size&nbsp;Bed" data-price="1999.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -189,7 +208,8 @@ var content = [
         firstpar: "Granite Sink",
         h1: "Complete Granite Sink",
         price: "$499.99",
-        description: "Ready-made granite sink for small bathroom."
+        description: "Ready-made granite sink for small bathroom.",
+        button: '<a href="#" data-name="Granite&nbsp;Sink" data-price="499.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -198,7 +218,8 @@ var content = [
         firstpar: "Porcelain Sink",
         h1: "Ready-made Porcelain Sink",
         price: "$499.99",
-        description: "Ready-made porcelain sink for small bathroom."
+        description: "Ready-made porcelain sink for small bathroom.",
+        button: '<a href="#" data-name="Porcelain&nbsp;Sink" data-price="499.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -207,7 +228,8 @@ var content = [
         firstpar: "Towel Rack",
         h1: "Single Towel Rack",
         price: "$49.99",
-        description: "Single towel rack for small bathroom."
+        description: "Single towel rack for small bathroom.",
+        button: '<a href="#" data-name="Towel&nbsp;Rack" data-price="49.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -216,7 +238,8 @@ var content = [
         firstpar: "Set of Towels",
         h1: "Set of 3 Towels",
         price: "$49.99",
-        description: "Set of 3 towels."
+        description: "Set of 3 towels.",
+        button: '<a href="#" data-name="Set&nbsp;of&nbsp;Towels" data-price="49.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -225,7 +248,8 @@ var content = [
         firstpar: "Flower Pot",
         h1: "Clay Flower Pot",
         price: "$65.00",
-        description: "Clay flower pot for flowers or plants."
+        description: "Clay flower pot for flowers or plants.",
+        button: '<a href="#" data-name="Flower&nbsp;Pot" data-price="65.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -234,7 +258,8 @@ var content = [
         firstpar: "Flower Pot",
         h1: "Clay Flower Pot",
         price: "$65.00",
-        description: "Clay flower pot for flowers or plants."
+        description: "Clay flower pot for flowers or plants.",
+        button: '<a href="#" data-name="Flower&nbsp;Pot" data-price="65.00" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -243,7 +268,8 @@ var content = [
         firstpar: "Set of 4 Pots",
         h1: "Set of 4 Flower Pots",
         price: "$199.99",
-        description: "Set of 4 flower pots for flowers or plants."
+        description: "Set of 4 flower pots for flowers or plants.",
+        button: '<a href="#" data-name="Set&nbsp;of&nbsp;4&nbsp;Pots" data-price="199.99" class="add-to-cart herobutton">Add to cart</a>'
     }
     ,
     {
@@ -252,7 +278,8 @@ var content = [
         firstpar: "Set of 3 Pots",
         h1: "Set of 3 Flower Pots",
         price: "$149.99",
-        description: "Set of 3 flower pots for flowers or plants."
+        description: "Set of 3 flower pots for flowers or plants.",
+        button: '<a href="#" data-name="Set&nbsp;of&nbsp;3&nbsp;Pots" data-price="149.99" class="add-to-cart herobutton">Add to cart</a>'
     }
 ]
 
