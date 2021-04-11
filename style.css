@@ -1986,4 +1986,10 @@ body {
     top: -18vw;
   }
 }
+
+@media screen and (min-width: 2000px) {
+  .candles img {
+    min-height: 500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
