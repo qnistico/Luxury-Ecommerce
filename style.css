@@ -21,6 +21,15 @@ body {
   background: url(img/mansion1.jpg);
   background-size: cover;
   background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .herocontainer .herologo {
@@ -45,7 +54,7 @@ body {
 }
 
 .herocontainer .heroflex .herocontent {
-  width: 32%;
+  width: 100%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,7 +71,7 @@ body {
           justify-content: center;
   background-color: white;
   padding: 2rem;
-  margin: 13% auto 0 auto;
+  margin: auto;
   -webkit-box-shadow: #c5c5c562 0 12px 24px 0;
           box-shadow: #c5c5c562 0 12px 24px 0;
   -webkit-animation-duration: 0.618s;
@@ -1989,8 +1998,12 @@ body {
 }
 
 @media screen and (min-width: 2000px) {
+  .cards, .candles, .cards2, .featured, .opinion, .customers, .services {
+    width: 1500px;
+    margin: auto;
+  }
   .candles img {
-    min-height: 500px;
+    min-height: 350px;
   }
 }
 /*# sourceMappingURL=style.css.map */
