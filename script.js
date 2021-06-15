@@ -519,3 +519,13 @@ var shoppingCart = (function() {
   
   displayCart();
   
+  const sr = ScrollReveal({
+    distance: '32px',
+    duration: 840,
+    delay: 0
+});
+
+sr.reveal('.sr-p',  {
+  origin: 'top'
+})
+
