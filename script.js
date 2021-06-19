@@ -520,12 +520,12 @@ var shoppingCart = (function() {
   displayCart();
   
   const sr = ScrollReveal({
-    distance: '32px',
-    duration: 840,
+    distance: '45px',
+    duration: 900,
     delay: 100
 });
 
 sr.reveal('.sr-p',  {
   origin: 'top'
-})
+});
 
