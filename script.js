@@ -519,37 +519,4 @@ var shoppingCart = (function() {
   
   displayCart();
   
-  const sr = ScrollReveal({
-    distance: '32px',
-    duration: 900,
-    delay: 0
-});
-
-sr.reveal('.sr-p',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p2',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p3',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p4',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p5',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p6',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p7',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p8',  {
-  origin: 'top'
-})
-sr.reveal('.sr-p9',  {
-  origin: 'top'
-})
-
+  
