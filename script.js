@@ -520,9 +520,9 @@ var shoppingCart = (function() {
   displayCart();
   
   const sr = ScrollReveal({
-    distance: '45px',
+    distance: '32px',
     duration: 900,
-    delay: 125
+    delay: 0
 });
 
 sr.reveal('.sr-p',  {
@@ -551,5 +551,5 @@ sr.reveal('.sr-p8',  {
 })
 sr.reveal('.sr-p9',  {
   origin: 'top'
-});
+})
 
