@@ -522,7 +522,7 @@ var shoppingCart = (function() {
   const sr = ScrollReveal({
     distance: '45px',
     duration: 900,
-    delay: 100
+    delay: 125
 });
 
 sr.reveal('.sr-p',  {
